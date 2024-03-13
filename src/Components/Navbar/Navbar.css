@@ -1,0 +1,128 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --Gray-100: #424143;
+    --Gray-90: #595A5C;
+    --Gray-80: #6E6F72;
+    --Gray-70: #6E6F72;
+    --Gray-60: #818386;
+    --Gray-50: #949698;
+    --Gray-40: #A7AAAC;
+    --Gray-30: #BCBEC0;
+    --Gray-20: #D2D3D4;
+    --Gray-10:#E6E8EA;
+    --Gray-0: #F3F5F5;
+    --Primary: #4A5291;
+    --Secondary: #E9545E;
+}
+
+:root{
+    /* placeholder */
+    --Placeholder-search: 24px;
+
+    /* Hero */
+    --Hero-Title: 84px;
+
+    /* Button */
+    --Button-Large: 24x;
+    --Button-Medium: 16px;
+    --Button-Small: 10px;
+
+    /* Description */
+    --Description-Heading: 36px;
+    --Description-Sub-Heading: 20px;
+
+    /* Fillter */
+    --Fillter-Leading: 20px;
+    --Filter-items: 16px;
+
+    /* Card-Product */
+    --Card-Product-title: 16px;
+    --Card-Product-sub-title:10px;
+
+    /* Card-Service */
+    --Card-Service-title: 30px;
+    --Card-Service-sub-title: 14px;
+
+    /* Product-Details */
+    --Product-Details-title:48px;
+    --Product-Details-sub-title: 16px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-nav{
+    width: 100%;
+    box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.192);
+}
+.navbar{
+    width: 1148px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    padding: 24px 32px ;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    font-size: var(--Button-Large);
+    gap: 50;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-self: center;
+    gap: 3px;
+    cursor: pointer;
+    padding: 24px 32px;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    color: var(--Secondary);
+}
+.nav-input-search {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.nav-input-search form{
+    display: flex;
+    margin: 0;
+}
+.nav-input-search form input{
+    padding: 16px;
+    border: 1px solid var(--Gray-20);
+    outline: none;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.nav-input-search form input:hover{
+    border: 1px solid var(--Gray-60);
+    transition: 0.3s;
+}
+.nav-input-search form input:focus{
+    border: 1px solid var(--Gray-60);
+}
+.nav-input-search form button{
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.nav-input-search form button:hover{
+    background-color: var(--Secondary);
+    color: var(--white);
+    transition: 0.3s;
+}

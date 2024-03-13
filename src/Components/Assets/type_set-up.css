@@ -1,0 +1,33 @@
+:root{
+    /* placeholder */
+    --Placeholder-search: 24px;
+
+    /* Hero */
+    --Hero-Title: 84px;
+
+    /* Button */
+    --Button-Large: 24x;
+    --Button-Medium: 16px;
+    --Button-Small: 10px;
+
+    /* Description */
+    --Description-Heading: 36px;
+    --Description-Sub-Heading: 20px;
+
+    /* Fillter */
+    --Fillter-Leading: 20px;
+    --Filter-items: 16px;
+
+    /* Card-Product */
+    --Card-Product-title: 16px;
+    --Card-Product-sub-title:10px;
+
+    /* Card-Service */
+    --Card-Service-title: 30px;
+    --Card-Service-sub-title: 14px;
+
+    /* Product-Details */
+    --Product-Details-title:48px;
+    --Product-Details-sub-title: 16px;
+}
+
