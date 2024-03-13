@@ -15,7 +15,7 @@ const Navbar = () => {
                 </div>
                 <ul className='nav-menu'>
                     <li onClick = {() => {setMenu("Home")}}>Home{menu==="Home"?<hr/>:<></>}</li>
-                    <li onClick = {() => {setMenu("Abouts us")}}>About us{menu==="About us"?<hr/>:<></>}</li>
+                    <li onClick = {() => {setMenu("About us")}}>About us{menu==="About us"?<hr/>:<></>}</li>
                     <li onClick = {() => {setMenu("Product")}}>Product{menu==="Product"?<hr/>:<></>}</li>
                     <li onClick = {() => {setMenu("Service")}}>Service{menu==="Service"?<hr/>:<></>}</li>
                     <li onClick = {() => {setMenu("Compare")}}>Compare {menu==="Compare"?<hr/>:<></>}</li>

@@ -47,11 +47,16 @@
     /* Product-Details */
     --Product-Details-title:48px;
     --Product-Details-sub-title: 16px;
+
+    /* Font-fammily */
+    --Sf-pro:'SF Pro Display', sans-serif;
+                                                
 }
 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: var(--Sf-pro);
 }
 .container-nav{
     width: 100%;
@@ -73,11 +78,11 @@
     list-style: none;
     font-size: var(--Button-Large);
     gap: 50;
-    font-weight: 500;
+    font-weight: 300;
 }
 .nav-menu li{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
     justify-self: center;
     gap: 3px;
@@ -88,8 +93,10 @@
     border: none;
     width: 80%;
     height: 3px;
+    background-color: var(--Secondary);
     border-radius: 10px;
     color: var(--Secondary);
+    transition: 0.3s;
 }
 .nav-input-search {
     display: flex;
