@@ -1,0 +1,31 @@
+.Phone_popular_content_right{
+    background-size: cover;
+    width: 451px;
+    height: 189px;
+    text-align: right;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 24px;
+}
+.Phone_popular_content_right .title-card-large{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--Secondary);
+    margin-top: 8px;
+}
+.Phone_popular_content_right .sub-title-card-large{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--Gray-80);
+    float: right;
+    width: 45%;
+}
+.Phone_popular_content_right button{
+  margin-top: 16px;
+  border: none;
+  background-color: #ffffff00;
+  color: var(--Secondary);
+}

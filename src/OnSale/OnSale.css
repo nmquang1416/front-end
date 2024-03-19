@@ -1,0 +1,11 @@
+.OnSale{
+    width: 1148px;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.OnSale_Content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
