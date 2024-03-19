@@ -1,0 +1,18 @@
+.Brand_popular{
+    width: 1148px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 16px;
+}
+.Brand_popular h1{
+    color: var(--Primary);
+    font-size: 36px;
+    font-weight: 700;
+}
+.popular-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 16px;
+}

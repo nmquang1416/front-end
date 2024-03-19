@@ -2,10 +2,9 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Shop } from "./Pages/Shop";
-import { Home } from "./PageOfCellinfo/ProductOfCellinfo";
+import Home from '../src/PageOfCellinfo/Home';
 import { ShopCategory } from "./Pages/ShopCategory";
 import { ProductOfCellinfo } from "./PageOfCellinfo/ProductOfCellinfo";
-import  Hero  from "./Components/Hero/Hero";
 
 function App() {
   return (
@@ -23,8 +22,8 @@ function App() {
             </Route>
           </Routes>
       </BrowserRouter>
-
-      <Hero/>
+    <Home/>
+      
     </div>
   );
 }

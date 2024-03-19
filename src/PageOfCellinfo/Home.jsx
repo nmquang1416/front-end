@@ -1,10 +1,13 @@
 import React from 'react';
 import Hero from '../Components/Hero/Hero';
-
-export const Home = () => {
+import BrandPopular from '../Components/BrandPopular/BrandPopular'
+const Home = () => {
   return (
     <div>
-      {/* <Hero/> */}
+      <Hero/>
+      <BrandPopular/>
     </div>
   )
 }
+
+export default Home;
