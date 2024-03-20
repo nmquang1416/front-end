@@ -1,18 +1,19 @@
 import React, { createContext } from 'react';
+
 import all_product_cellinfo from "../Components/Assets/DataofCellinfo/all_product_cellinfo"
 
 
-export const ShopContext = createContext(null);
+export const ProductContext = createContext(null);
 
-const ShopContextProvider = (props) => {
+const ProductContextProvider = (props) => {
 
   const contextValue = {all_product_cellinfo};
 
   return(
-    <ShopContext.Provider value={contextValue}>
-        {props.Shop}
-    </ShopContext.Provider>
+    <ProductContext.Provider value={contextValue}>
+        {props.aboutUs}
+    </ProductContext.Provider>
   )
 }
 
-export default ShopContextProvider;
+export default ProductContextProvider;

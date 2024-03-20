@@ -74,3 +74,4 @@ let all_product_cellinfo = [
         button_2: "View more",
     }
 ]
+export default all_product_cellinfo;
