@@ -1,0 +1,33 @@
+.Section-site .section-container-content .Description{
+    width: 1148px;
+    margin: auto;
+}
+.Section-site .section-container-content .banner-section{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    align-items: center;
+}
+.Section-site .section-container-content .banner-section .section-title{
+    width: 1148px;
+    margin: auto;
+
+}
+.Section-site .section-container-content .banner-section .section-title h1{
+    font-size: 84px;
+    color: white;
+}
+
+.Section-site .section-container-content .Description h2{
+    margin-top: 64px;
+    margin-bottom: 16px;
+    font-size: 36px;
+    color: var(--Primary);
+}
+
+.Section-site .section-container-content .Description p{
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: var(--Gray-80);
+    line-height: 1.4;
+}
