@@ -1,7 +1,7 @@
 import React from 'react';
 import './OnSale.css';
-import ItemsOnSale from '../Components/ItemsOnSale/ItemsOnSale';
-import all_on_sale_product from '../Components/Assets/DataofCellinfo/all_on_sale_product';
+import ItemsOnSale from '../ItemsOnSale/ItemsOnSale';
+import all_on_sale_product from '../Assets/DataofCellinfo/all_on_sale_product';
 
 const OnSale = () => {
     return (
