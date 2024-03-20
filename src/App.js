@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from '../src/PageOfCellinfo/Home';
 import { ShopCategory } from "./Pages/ShopCategory";
 import { ProductOfCellinfo } from "./PageOfCellinfo/ProductOfCellinfo";
+import Footer from '../src/Components/Footer/Footer';
+import ItemsProduct from './Components/ItemsProduct/ItemsProduct'
 
 function App() {
   return (
@@ -23,7 +25,7 @@ function App() {
           </Routes>
       </BrowserRouter>
     <Home/>
-      
+    <Footer/>
     </div>
   );
 }

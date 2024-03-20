@@ -1,4 +1,4 @@
-import p32_img from "./product_32.png";
+import img_1 from "../Img/iphone-items-product.png";
 
 let all_product_cellinfo = [
     {
@@ -7,9 +7,11 @@ let all_product_cellinfo = [
         Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", 
         categories: "Iphone",
         color: 4,
-        image: p32_img,
+        image: img_1,
         new_price: 100,
         old_price:50, 
+        button_1: "Order",
+        button_2: "View more",
     },
     {
         id: 2,
@@ -17,9 +19,11 @@ let all_product_cellinfo = [
         Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", 
         categories: "Iphone",
         color: 4,
-        image: p32_img,
+        image: img_1,
         new_price: 100,
-        old_price:50, 
+        old_price:50,
+        button_1: "Order",
+        button_2: "View more",
     },
     {
         id: 3,
@@ -27,9 +31,11 @@ let all_product_cellinfo = [
         Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", 
         categories: "Iphone",
         color: 4,
-        image: p32_img,
+        image: img_1,
         new_price: 100,
         old_price:50, 
+        button_1: "Order",
+        button_2: "View more",
     },
     {
         id: 4,
@@ -37,9 +43,11 @@ let all_product_cellinfo = [
         Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", 
         categories: "Iphone",
         color: 4,
-        image: p32_img,
+        image: img_1,
         new_price: 100,
         old_price:50, 
+        button_1: "Order",
+        button_2: "View more",
     },
     {
         id: 5,
@@ -47,9 +55,11 @@ let all_product_cellinfo = [
         Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", 
         categories: "Iphone",
         color: 4,
-        image: p32_img,
+        image: img_1,
         new_price: 100,
         old_price:50, 
+        button_1: "Order",
+        button_2: "View more",
     },
     {
         id: 6,
@@ -57,8 +67,10 @@ let all_product_cellinfo = [
         Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", 
         categories: "Iphone",
         color: 4,
-        image: p32_img,
+        image: img_1,
         new_price: 100,
         old_price:50, 
+        button_1: "Order",
+        button_2: "View more",
     }
 ]

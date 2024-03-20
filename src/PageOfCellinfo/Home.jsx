@@ -12,7 +12,6 @@ const Home = () => {
       <BrandPopular/>
       <PhonePopular/>
       <OnSale/>
-      <Footer/>
     </div>
   )
 }
