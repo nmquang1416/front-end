@@ -1,0 +1,18 @@
+.ItemsService{
+
+}
+.content-Service{
+    display: flex;
+    
+}
+.content-Service .content-service-right{
+    width: 108px;
+    height: 108px;
+}
+.content-Service .content-service-right img{
+    width: 100%;
+    height: 100%;
+}
+.content-Service .content-service-left .title-service{
+
+}

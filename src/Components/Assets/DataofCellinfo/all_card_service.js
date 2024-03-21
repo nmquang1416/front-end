@@ -21,3 +21,5 @@ let all_card_service = [
     },
     
 ]
+
+export default all_card_service;
