@@ -1,18 +1,35 @@
 .ItemsService{
-
+    background-color: var(--Gray-0);
+    display: flex;
+    border-radius: 16px;
+    margin-bottom: 14px;
 }
 .content-Service{
     display: flex;
-    
+    padding: 42px 54px;
+    justify-content: space-between;
+    align-items: center;
 }
 .content-Service .content-service-right{
     width: 108px;
     height: 108px;
+    margin-right: 24px;
 }
 .content-Service .content-service-right img{
     width: 100%;
     height: 100%;
+    
 }
 .content-Service .content-service-left .title-service{
-
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--Primary);
+}
+.content-Service .content-service-left{
+    width: 327px;
+}
+.content-Service .content-service-left .sub-title-service{
+    font-size: 14px;
+    font-weight: 100;
+    color: var(--Gray-80);
 }

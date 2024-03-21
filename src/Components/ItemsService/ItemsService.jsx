@@ -7,7 +7,7 @@ const ItemsService = (props) => {
     <div className="ItemsService">
       <div className="content-Service">
         <div className="content-service-right">
-          <img src={service_icon} alt="" />
+          <img src={props.icon} alt="" />
         </div>
         <div className="content-service-left">
           <div className="title-service">{props.Title}</div>

@@ -1,0 +1,7 @@
+.container-ServiceCard{
+    width: 1148px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

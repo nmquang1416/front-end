@@ -1,0 +1,14 @@
+product: 
+1. Tên
+2. Mô tả
+3. màu
+4. dung lượng
+5. giá 
+6. nút mua và nút so sánh
+7. chip
+8. ảnh
+
+cach xu ly tam thoi phan product fillter
+chia lam 2 component
+
+trong component fillter thi co cac component nho render nho data
