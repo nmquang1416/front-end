@@ -1,9 +1,12 @@
 import React from 'react'
+import ProductFillter from '../Components/ProductFillter/ProductFillter';
+import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
 
 const Product = () => {
   return (
     <div>
-      hello Product
+      <ProductFillter/>
+      <ProductDisplay/>
     </div>
   )
 }

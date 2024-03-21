@@ -1,9 +1,5 @@
 import React from 'react';
 import './ItemsProduct.css';
-import all_product_cellinfo from '../Assets/DataofCellinfo/all_product_cellinfo'
-import iphone15 from '../Assets/Img/iphone-items-product.png';
-
-
 
 const ItemsProduct = (props) => {
   return (
