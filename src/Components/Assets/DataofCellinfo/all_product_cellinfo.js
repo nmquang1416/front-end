@@ -109,6 +109,7 @@ let all_product_cellinfo = [
         button_1: "Order",
         button_2: "View more",
     },
+   
 ]
 
 
