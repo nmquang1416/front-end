@@ -1,0 +1,19 @@
+.ProductFillter{
+    width: 261px;
+    background-color: var(--Gray-0);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.ProductFillter .title-fillter{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 32px;
+}
+
+.ProductFillter .Brand-Fillter,
+.Price-Fillter, .Demand-Fillter, .Storage-Fillter
+{
+    width: 100%;
+}

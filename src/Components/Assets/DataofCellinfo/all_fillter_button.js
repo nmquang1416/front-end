@@ -1,34 +1,66 @@
 export let Brand_fillter =[
     {
-        Aplle: "Apple",
-        Samsung: "Samsung",
-        Xiaomi: "Xiaomi",
-        Oppo: "Oppo",
-        Nokia: "Nokia",
-        Vinsmart: "Vinsmart",
+        title: "Apple",
     },
+    {
+        title: "Samsung",
+    },
+    {
+        title: "Xiaomi",
+    },
+    {
+        title: "Oppo",
+    },
+    {
+        title: "Nokia",
+    },
+    {
+        title: "Vinsmart",
+    }
 ]
 
 export let Price_fillter = [
     {
-
+        title: "80 - 400",
+    },
+    {
+        title: "400 - 800",
+    },
+    {
+        title: "800 - 1000",
+    },
+    {
+        title: "1000+",
     }
 ]
 
 export let Demand_fillter = [
     {
-        Gaming: "Gaming",
-        Bussiness: "Bussiness",
-        Photographer: "Photographer",
-        Casual: "Casual",
+        title: "Gaming",
+    },
+    {
+        title: "Bussiness",
+    },
+    {
+        title: "Photographer",
+    },
+    {
+        title: "Casual",
     }
+
 ]
 
 export let Storage_fillter = [
     {
-        choice_1: "32 - 64",
-        choice_2: "64 - 128",
-        choice_3: "128 - 256",
-        choice_4: "256+",
+        title: "32 - 64", 
+    },
+    {
+        title: "64 - 128",
+    },
+    {
+        title: "128 - 256",
+    },
+    {
+        title: "256+",
     }
 ]
