@@ -3,6 +3,8 @@ import img_large from '../Assets/Img/img-large.png'
 import img_small from '../Assets/Img/img-small.png'
 import './ProductDetails_Info.css'
 
+// let { product_id } = useParams(); // param
+
 const ProductDetails_Info = () => {
     return (
         <div className='ProductDetails'>

@@ -11,6 +11,7 @@ import AboutUs from './PageOfCellinfo/AboutUs';
 import Product from './PageOfCellinfo/Product';
 import Service from './PageOfCellinfo/Service';
 import Compare from './PageOfCellinfo/Compare';
+import ProductDetails_Info from './Components/ProductDetails_Info'
 // end Pages
 
 // 
@@ -36,6 +37,7 @@ function App() {
             <Route path='/' Component={Home}/>
             <Route path='/AboutUs' Component={AboutUs}/>
             <Route path='/ProductOfCellinfo' Component={Product}/>
+            <Route path='/product/:product_id' Component={ProductDetails_Info}/>
             <Route path='/Service' Component={Service}/>
             <Route path='/Compare' Component={Compare}/>
 

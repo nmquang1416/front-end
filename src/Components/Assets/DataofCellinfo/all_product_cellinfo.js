@@ -1,5 +1,8 @@
 import img_1 from "../Img/iphone-items-product.png";
 
+// // product can lay = all_product_cellinfo.filter((item)=>{
+// //     return item.id == product_id
+// })
 let all_product_cellinfo = [
     {
         id: 1,
