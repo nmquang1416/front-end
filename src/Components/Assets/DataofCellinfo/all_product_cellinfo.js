@@ -72,7 +72,44 @@ let all_product_cellinfo = [
         old_price:50, 
         button_1: "Order",
         button_2: "View more",
-    }
+    },
+    {
+        id: 7,
+        name:"Iphone 15 Pro",
+        Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", 
+        categories: "Iphone",
+        color: 4,
+        image: img_1,
+        new_price: 100,
+        old_price:50, 
+        button_1: "Order",
+        button_2: "View more",
+    },
+    {
+        id: 8,
+        name:"Iphone 15 Pro",
+        Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", 
+        categories: "Iphone",
+        color: 4,
+        image: img_1,
+        new_price: 100,
+        old_price:50, 
+        button_1: "Order",
+        button_2: "View more",
+    },
+    {
+        id: 9,
+        name:"Iphone 15 Pro",
+        Description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", 
+        categories: "Iphone",
+        color: 4,
+        image: img_1,
+        new_price: 100,
+        old_price:50, 
+        button_1: "Order",
+        button_2: "View more",
+    },
+   
 ]
 
 
