@@ -50,6 +50,22 @@
     border-radius: 8px;
     margin-right: 16px;
 }
+.ProductDetails_Info .Details-info-right .Color-choice .Color.white{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: var(--white);
+    border: solid 1px var(--black);
+}
+.ProductDetails_Info .Details-info-right .Color-choice .Color.black{
+    background-color: var(--black);
+}
+.ProductDetails_Info .Details-info-right .Color-choice .Color.blue{
+    background-color: rgb(74, 74, 245);
+}
+.ProductDetails_Info .Details-info-right .Color-choice .Color.gold{
+    background-color: rgb(221, 218, 40);
+}
 
 .ProductDetails_Info .Details-info-right .Storage .btn-Storage{
     padding: 8px 12px;

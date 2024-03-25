@@ -44,7 +44,7 @@ const ProductDetails_Info = () => {
 
                     <div className="btn-action">
                         <button className='btn-high-emphasis Compare'>Compare</button>
-                        <button className='btn-high-emphasis Download'>Download</button>
+                        <button className='btn-high-emphasis Download'>Download Doc</button>
                         <button className='btn-low-emphasis Order'>Order</button>
                     </div>
                 </div>
