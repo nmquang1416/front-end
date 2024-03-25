@@ -6,6 +6,8 @@ import ItemsProductDisplay from '../ItemsProductDisplay/ItemsProduct';
 
 import all_product_cellinfo from '../Assets/DataofCellinfo/all_product_cellinfo';
 
+
+
 const ProductDisplay = () => {
     return (
         <div className='Product-Display' >

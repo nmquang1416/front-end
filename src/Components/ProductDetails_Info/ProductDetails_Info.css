@@ -1,0 +1,153 @@
+/* .ProductDetails{
+    background-color: var(--Gray-10);
+    display: flex;
+} */
+.ProductDetails_Info{
+    display: flex;
+    
+}
+
+.ProductDetails_Info .Details-info-left{
+    margin-right: 32px;
+}
+
+.ProductDetails_Info .Details-info-left .more-img{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductDetails_Info .Details-info-right .title{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--Primary);
+}
+
+.ProductDetails_Info .Details-info-right .sub-title{
+    font-size: 16px;
+    width: 456px;
+    font-weight: 100;
+    color: var(--Gray-80);
+}
+
+.ProductDetails_Info .Details-info-right .Color-choice{
+    display: flex;
+}
+
+.ProductDetails_Info .Details-info-right .heading{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--Primary);
+}
+
+.ProductDetails_Info .Details-info-right .Color-choice .Color{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: var(--Primary);
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.ProductDetails_Info .Details-info-right .Storage .btn-Storage{
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: solid 1px var(--Gray-80);
+    background-color: rgba(240, 248, 255, 0);
+    color: var(--Gray-80);
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ProductDetails_Info .Details-info-right .Price{
+    color: var(--Secondary);
+    margin-top: 72px;
+}
+
+
+.ProductDetails_Info .Details-info-right .Price .Price-New{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.ProductDetails_Info .Details-info-right .Price .Price-New span.payment{
+    font-size: 32px;
+    margin-right: 24px;
+    font-weight: 700;
+   
+}
+
+.ProductDetails_Info .Details-info-right .Price .Price-Old{
+    font-size: 24px;
+    color: var(--Gray-80);
+    text-decoration: line-through;
+}
+
+.ProductDetails_Info .Details-info-right .btn-action {
+    display: flex;
+    gap: 8px;
+}
+
+.ProductDetails_Info .Details-info-right .btn-action .btn-low-emphasis{
+    padding: 16px 0px;
+    width: 125px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: solid 1px var(--Primary);
+    color: var(--Primary);
+    background-color: #ffffff00;
+}
+
+.ProductDetails_Info .Details-info-right .btn-action .btn-high-emphasis {
+    padding: 16px 0px;
+    width: 180px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    background-color: var(--Secondary);
+}
+
+.ProductDetails_Info .Details-info-right .btn-action {
+    margin-top: 8px;
+}
+
+.ProductDetails .ProductDetails_More{
+    margin-top: 100px;
+}
+
+.ProductDetails .ProductDetails_More .nav-phone-info{
+    display: flex;
+}
+
+.ProductDetails .ProductDetails_More .nav-phone-info .phone-info-items{
+    padding: 12px 36px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Primary);
+}
+
+.ProductDetails .ProductDetails_More .nav-phone-info div.Performance,
+.ProductDetails .ProductDetails_More .nav-phone-info div.Question{
+    padding: 12px 36px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Gray-80);
+}
+
+.ProductDetails .ProductDetails_More .iphone-info-details .Description-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--Primary);
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.ProductDetails .ProductDetails_More .iphone-info-details .Description-sub-title{
+    font-size: 20px;
+    color: var(--Gray-80);
+    font-weight: 100;
+}
