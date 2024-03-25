@@ -1,71 +1,76 @@
 .Content-Product-Compare{
     width: 1148px;
     margin: auto;
+}
+
+.Content-Product-Compare .Box-Compare{
     display: flex;
-    justify-content: space-between;
-}
-
-/* Content-right */
-.Product-Compare-Right{
-    display: flex;
-    gap: 32px   ;
-}
-
-.Product-Compare-Right .Box-Product{
-    width: 283px;
-}
-
-.Product-Compare-Right .Box-Product .Block{
+    gap: 32px;
     margin-bottom: 68px;
 }
 
-.Product-Compare-Right .Box-Product .Block-Product{
-   
-}
 
-.Product-Compare-Right .Box-Product .Block-Product img{
-    margin-bottom: 24px;
-}
-
-.Product-Compare-Right .Box-Product .Block-Product .Title-Compare{
+.Content-Product-Compare .Box-Compare .Block-product p{
     font-size: 24px;
     font-weight: 700;
     color: var(--Primary);
 }
-
-.Product-Compare-Right .Box-Product .Block-Product .Price-Compare{
+.Content-Product-Compare .Box-Compare .Block-product .Price{
     font-size: 24px;
-    font-weight: 700;
-}
-
-.Product-Compare-Right .Box-Product .Block-Product .Price-Compare .New-Price{
-    color: var(--Secondary);
+    font-weight: 500;
     margin-right: 8px;
 }
-
-.Product-Compare-Right .Box-Product .Block-Product .Price-Compare .Old-Price{
+.Content-Product-Compare .Box-Compare .Block-product span.PriceNew{
+    color: var(--Secondary);
+}
+.Content-Product-Compare .Box-Compare .Block-product span.PriceOld{
     color: var(--Gray-30);
+    text-decoration: line-through;
 }
 
-.Content-Product-Compare .Details-compare {
-    font-size: 20px;
+.Content-Product-Compare .Compare-Details table{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     color: var(--Gray-80);
 }
 
-/* Content-Left */
 
-.Product-Compare-Left{
+.Content-Product-Compare .Box-Compare .Block-null{
+    width: 194px;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.Content-Product-Compare .Box-Compare .Block-null img{
     
 }
-.Product-Compare-Left .Box-Title{
-    
+.Content-Product-Compare .Compare-Details table tr{
+    display: table;
 }
-.Product-Compare-Left .Box-Title .Block-null{
-    width: 100%;
-    height: 515px;
-
+.Content-Product-Compare .Compare-Details table{
+    margin-bottom: 48px;
 }
 
-.Product-Compare-Left .Block{
-    margin-bottom: 68px;
+
+.Content-Product-Compare .Compare-Details td.details-title{
+    width: 193px;
+    text-align: right;
+    display: inline-table;
+}
+
+
+.Content-Product-Compare .Compare-Details td.details-sub-title{
+    display: inline-table;
+    margin-left: 30px;
+    width: 283px;
+}
+
+.Content-Product-Compare .Compare-Details .Compare-Button .Button-buy button{
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: #ffdead00;
+    color: var(--Secondary);
+    border: solid 1px var(--Secondary);
 }

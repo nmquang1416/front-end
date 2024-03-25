@@ -5,113 +5,109 @@ import iphoneCompare from '../Assets/Img/iphone-conpare.png';
 const ProductCompare = () => {
     return (
         <div className='Content-Product-Compare'>
-            <div className="Product-Compare-Left">
-                <div className="Box-Title">
-                    <div className="Block-null"></div>
-                    <div className="Block Block-Screen-Title">
-                        <p className="Details-compare Screen-size-title">Kích thước màn hình</p>
-                        <p className="Details-compare Screen-technology-title">Công nghệ màn hình</p>
-                        <p className="Details-compare Screen-features-title">Tính năng màn hình</p>
-                    </div>
-                    <div className="Block Block-Performance-Title">
-                        <p className="Details-compare Performance-chipset-title">Chipset</p>
-                        <p className="Details-compare Performance-RAM-title">Dung lượng RAM</p>
-                        <p className="Details-compare Performance-Storage-title">Bộ nhớ trong</p>
-                        <p className="Details-compare Performance-Battery-title">Pin</p>
-                    </div>
-                    <div className="Block Block-More-Title">
-                        <p className="Details-compare More-Camera-Front-title">Camera Sau</p>
-                        <p className="Details-compare More-Camera-Back-title">Camera trước</p>
-                        <p className="Details-compare More-SIM-title">Thẻ SIM</p>
-                        <p className="Details-compare More-System-title">Hệ điều hành</p>
-                    </div>
+            <div className="Box-Compare">
+                <div className="Block-null"></div>
+                <div className="Block-product">
+                    <img src={iphoneCompare} alt="" />
+                    <p className="title">iPhone 13 128GB</p>
+                    <span className='Price PriceNew'>599$</span>
+                    <span className='Price PriceOld'>499$</span>
+                </div>
+                <div className="Block-product">
+                    <img src={iphoneCompare} alt="" />
+                    <p className="title">iPhone 13 128GB</p>
+                    <span className='Price PriceNew'>599$</span>
+                    <span className='Price PriceOld'>499$</span>
+                </div>
+                <div className="Block-product">
+                    <img src={iphoneCompare} alt="" />
+                    <p className="title">iPhone 13 128GB</p>
+                    <span className='Price PriceNew'>599$</span>
+                    <span className='Price PriceOld'>499$</span>
                 </div>
             </div>
-            <div className="Product-Compare-Right">
-                <div className="Box-Product">
-                    <div className="Block Block-Product">
-                        <img src={iphoneCompare} alt="" />
-                        <p className="Title-Compare">Iphone 15</p>
-                        <p className="Price-Compare">
-                            <span className="New-Price">599$</span>
-                            <span className="Old-Price">499$</span>
-                        </p>
-                    </div>
-                    <div className="Block Block-Product-Screen">
-                        <p className="Details-compare Screen-size">6.1 inches</p>
-                        <p className="Details-compare Screen-technology">Super Retina XDR OLED</p>
-                        <p className="Details-compare Screen-features">460 ppi, HDR display, Lớp phủ oleophobic chống bám vân tay</p>
-                    </div>
-                    <div className="Block Block-Product-Performance">
-                        <p className="Details-compare Performance-chipset">Apple A15</p>
-                        <p className="Details-compare Performance-RAM">4 GB</p>
-                        <p className="Details-compare Performance-Storage">128 GB</p>
-                        <p className="Details-compare Performance-Battery">3240mAh</p>
-                    </div>
-                    <div className="Block Block-Product-More">
-                        <p className="Details-compare More-Camera-Front">12MP, f/1.6</p>
-                        <p className="Details-compare More-Camera-Back">12MP, f/2.2</p>
-                        <p className="Details-compare More-SIM">2 SIM (nano‑SIM và eSIM)</p>
-                        <p className="Details-compare More-System">iOS 15</p>
-                    </div>
-                    <button className="btn-compare">Buy now</button>
-                </div>
-                <div className="Box-Product">
-                    <div className="Block Block-Product">
-                        <img src={iphoneCompare} alt="" />
-                        <p className="Title-Compare">Iphone 15</p>
-                        <p className="Price-Compare">
-                            <span className="New-Price">599$</span>
-                            <span className="Old-Price">499$</span>
-                        </p>
-                    </div>
-                    <div className="Block Block-Product-Screen">
-                        <p className="Details-compare Screen-size">6.1 inches</p>
-                        <p className="Details-compare Screen-technology">Super Retina XDR OLED</p>
-                        <p className="Details-compare Screen-features">460 ppi, HDR display, Lớp phủ oleophobic chống bám vân tay</p>
-                    </div>
-                    <div className="Block Block-Product-Performance">
-                        <p className="Details-compare Performance-chipset">Apple A15</p>
-                        <p className="Details-compare Performance-RAM">4 GB</p>
-                        <p className="Details-compare Performance-Storage">128 GB</p>
-                        <p className="Details-compare Performance-Battery">3240mAh</p>
-                    </div>
-                    <div className="Block Block-Product-More">
-                        <p className="Details-compare More-Camera-Front">12MP, f/1.6</p>
-                        <p className="Details-compare More-Camera-Back">12MP, f/2.2</p>
-                        <p className="Details-compare More-SIM">2 SIM (nano‑SIM và eSIM)</p>
-                        <p className="Details-compare More-System">iOS 15</p>
-                    </div>
-                    <button className="btn-compare">Buy now</button>
-                </div>
-                <div className="Box-Product">
-                    <div className="Block Block-Product">
-                        <img src={iphoneCompare} alt="" />
-                        <p className="Title-Compare">Iphone 15</p>
-                        <p className="Price-Compare">
-                            <span className="New-Price">599$</span>
-                            <span className="Old-Price">499$</span>
-                        </p>
-                    </div>
-                    <div className="Block Block-Product-Screen">
-                        <p className="Details-compare Screen-size">6.1 inches</p>
-                        <p className="Details-compare Screen-technology">Super Retina XDR OLED</p>
-                        <p className="Details-compare Screen-features">460 ppi, HDR display, Lớp phủ oleophobic chống bám vân tay</p>
-                    </div>
-                    <div className="Block Block-Product-Performance">
-                        <p className="Details-compare Performance-chipset">Apple A15</p>
-                        <p className="Details-compare Performance-RAM">4 GB</p>
-                        <p className="Details-compare Performance-Storage">128 GB</p>
-                        <p className="Details-compare Performance-Battery">3240mAh</p>
-                    </div>
-                    <div className="Block Block-Product-More">
-                        <p className="Details-compare More-Camera-Front">12MP, f/1.6</p>
-                        <p className="Details-compare More-Camera-Back">12MP, f/2.2</p>
-                        <p className="Details-compare More-SIM">2 SIM (nano‑SIM và eSIM)</p>
-                        <p className="Details-compare More-System">iOS 15</p>
-                    </div>
-                    <button className="btn-compare">Buy now</button>
-                </div>
+            <div className="Compare-Details">
+                <table className="Compare-Screen">
+                    <tr className='Screen-size'>
+                        <td className='details-title'>Kích thước màn hình</td>
+                        <td className='details-sub-title'>6.1 inches</td>
+                        <td className='details-sub-title'>6.1 inches</td>
+                        <td className='details-sub-title'>6.8 inches</td>
+                    </tr>
+                    <tr className='Screen-technology'>
+                        <td className='details-title'>Công nghệ màn hình</td>
+                        <td className='details-sub-title'>Super Retina XDR OLED</td>
+                        <td className='details-sub-title'>Super Retina XDR OLED</td>
+                        <td className='details-sub-title'>Dynamic AMOLED 2X</td>
+                    </tr>
+                    <tr className='Screen-Features'>
+                        <td className='details-title'>Tính năng màn hình</td>
+                        <td className='details-sub-title'>460 ppi, HDR display, Lớp phủ oleophobic chống bám vân tay</td>
+                        <td className='details-sub-title'>460 ppi, HDR display, Lớp phủ oleophobic chống bám vân tay</td>
+                        <td className='details-sub-title'>460 ppi, HDR display, Lớp phủ oleophobic chống bám vân tay</td>
+                    </tr>
+                </table>
+                <table className="Compare-Performance">
+                    <tr className='Chipset'>
+                        <td className='details-title'>Chipset</td>
+                        <td className='details-sub-title'>Apple A15</td>
+                        <td className='details-sub-title'>Apple A16 Bionic 6 nhân</td>
+                        <td className='details-sub-title'>Snapdragon 8 Gen 2 (4 nm)</td>
+                    </tr>
+                    <tr className='RAM'>
+                        <td className='details-title'>Dung lượng RAM</td>
+                        <td className='details-sub-title'>4 GB</td>
+                        <td className='details-sub-title'>6 GB</td>
+                        <td className='details-sub-title'>8 GB</td>
+                    </tr>
+                    <tr className='Storage'>
+                        <td className='details-title'>Bộ nhớ trong</td>
+                        <td className='details-sub-title'>128 GB</td>
+                        <td className='details-sub-title'>128 GB</td>
+                        <td className='details-sub-title'>256 GB</td>
+                    </tr>
+                    <tr className='Battery'>
+                        <td className='details-title'>Pin</td>
+                        <td className='details-sub-title'>3240mAh</td>
+                        <td className='details-sub-title'>3240mAh</td>
+                        <td className='details-sub-title'>5000mAh</td>
+                    </tr>
+                </table>
+                <table className="Compare-More">
+                    <tr className="Camera-front">
+                        <td className='details-title'>Camera Sau</td>
+                        <td className='details-sub-title'>12MP, f/1.6</td>
+                        <td className='details-sub-title'>48MP, 26 mm, ƒ/1.6</td>
+                        <td className='details-sub-title'>12MP F2.2 (Dual Pixel AF)</td>
+                    </tr>
+                    <tr className="Camera-back">
+                        <td className='details-title'>Camera Sau</td>
+                        <td className='details-sub-title'>12MP, f/2.2</td>
+                        <td className='details-sub-title'>12MP, ƒ/1.9</td>
+                        <td className='details-sub-title'>12MP F2.2 (Dual Pixel AF)</td>
+                    </tr>
+                    <tr className="SIM">
+                        <td className='details-title'>Thẻ SIM</td>
+                        <td className='details-sub-title'>2 SIM (nano‑SIM và eSIM)</td>
+                        <td className='details-sub-title'>2 SIM (nano‑SIM và eSIM)</td>
+                        <td className='details-sub-title'>2 SIM (nano‑SIM và eSIM)</td>
+                    </tr>
+                    <tr className="System">
+                        <td className='details-title'>Hệ điều hành</td>
+                        <td className='details-sub-title'>iOS 15</td>
+                        <td className='details-sub-title'>iOS 17</td>
+                        <td className='details-sub-title'>Android</td>
+                    </tr>
+                </table>
+                <table className="Compare-Button">
+                    <tr className="Button-buy">
+                        <td className='details-title'></td>
+                        <td className='details-sub-title'><button>Buy now</button></td>
+                        <td className='details-sub-title'><button>Buy now</button></td>
+                        <td className='details-sub-title'><button>Buy now</button></td>
+                    </tr>
+                </table>
+
             </div>
         </div>
     )
