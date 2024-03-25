@@ -1,0 +1,71 @@
+.Content-Product-Compare{
+    width: 1148px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Content-right */
+.Product-Compare-Right{
+    display: flex;
+    gap: 32px   ;
+}
+
+.Product-Compare-Right .Box-Product{
+    width: 283px;
+}
+
+.Product-Compare-Right .Box-Product .Block{
+    margin-bottom: 68px;
+}
+
+.Product-Compare-Right .Box-Product .Block-Product{
+   
+}
+
+.Product-Compare-Right .Box-Product .Block-Product img{
+    margin-bottom: 24px;
+}
+
+.Product-Compare-Right .Box-Product .Block-Product .Title-Compare{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Primary);
+}
+
+.Product-Compare-Right .Box-Product .Block-Product .Price-Compare{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Product-Compare-Right .Box-Product .Block-Product .Price-Compare .New-Price{
+    color: var(--Secondary);
+    margin-right: 8px;
+}
+
+.Product-Compare-Right .Box-Product .Block-Product .Price-Compare .Old-Price{
+    color: var(--Gray-30);
+}
+
+.Content-Product-Compare .Details-compare {
+    font-size: 20px;
+    color: var(--Gray-80);
+}
+
+/* Content-Left */
+
+.Product-Compare-Left{
+    
+}
+.Product-Compare-Left .Box-Title{
+    
+}
+.Product-Compare-Left .Box-Title .Block-null{
+    width: 100%;
+    height: 515px;
+
+}
+
+.Product-Compare-Left .Block{
+    margin-bottom: 68px;
+}
