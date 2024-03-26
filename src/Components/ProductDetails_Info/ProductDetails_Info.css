@@ -2,6 +2,10 @@
     background-color: var(--Gray-10);
     display: flex;
 } */
+.ProductDetails{
+    width: 1148px;
+    margin: auto;
+}
 .ProductDetails_Info{
     display: flex;
     

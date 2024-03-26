@@ -2,7 +2,7 @@ import React from 'react'
 import './Css/Product.css'
 import ProductFillter from '../Components/ProductFillter/ProductFillter';
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
-import ProductDetails_Info from '../Components/ProductDetails_Info'
+import ProductDetails_Info from '../Components/ProductDetails_Info/ProductDetails_Info'
 
 const Product = () => {
   return (
