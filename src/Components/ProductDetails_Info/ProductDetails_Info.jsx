@@ -8,17 +8,24 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useParams } from 'react-router-dom';
 import all_product_cellinfo from '../Assets/DataofCellinfo/all_product_cellinfo';
 
+import { GetId } from "../ProductDisplay/ProductDisplay";
 
 
 // let { product_id } = useParams(); // param
 
-const ProductDetails_Info = () => {
+function ProductDetails_Info () {
 
-    
+    let {id} = useParams();
+
+    // const filter = all_product_cellinfo.filter()
     
 
     return (
         <div className='ProductDetails'>
+            <div>
+            <p>now {all_product_cellinfo.map(user => user.id)}</p>
+        </div>
+
             <div className='ProductDetails_Info'>
                 <div className="Details-info-left">
                     <img src={img_large} alt="" />

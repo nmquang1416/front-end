@@ -9,6 +9,16 @@ import all_product_cellinfo from '../Assets/DataofCellinfo/all_product_cellinfo'
 
 
 
+export function GetId() {
+  return (
+    <div>
+      {all_product_cellinfo.map(Product_id =>(
+        <p>{Product_id.id}</p>
+    ))}
+    </div>
+  )
+}
+
 
 
 const ProductDisplay = () => {

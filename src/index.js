@@ -7,11 +7,9 @@ import ProductContextProvider from './Context/HomeContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
-<App/>
-
-
-
+<React.StrictMode>
+    <App />
+</React.StrictMode>
 );
 
 
