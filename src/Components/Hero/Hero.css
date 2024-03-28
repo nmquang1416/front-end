@@ -34,11 +34,18 @@
     float: left;
     font-size: 16px;
     border-radius: 8px;
-    border: none;
+    border: 1px solid var(--Secondary);
     color: var(--white);
     background-color: var(--Secondary);
     text-align: center;
     margin-top: 8px;
+    transition: var(--Trans);
+    cursor: pointer;
+}
+.hero-left button:hover{
+    background-color: var(--white);
+    border: 1px solid var(--Secondary);
+    color: var(--Secondary);
 }
 .hero-right{
     display: flex;

@@ -4,6 +4,7 @@ import iphoneCompare from '../Assets/Img/iphone-conpare.png';
 
 const ProductCompare = () => {
     return (
+        
         <div className='Content-Product-Compare'>
             <div className="Box-Compare">
                 <div className="Block-null"></div>

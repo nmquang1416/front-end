@@ -1,19 +1,30 @@
 .items-Brand-Popular{
     width: 566px;
     height: 240px;
-    background-size: cover ;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: 0.4s cubic-bezier(.86, .01, .15, .99);
     border-radius:16px ;
+    cursor: pointer;
     
+}
+.items-Brand-Popular p{
+    font-size: 48px;
+    color: var(--Primary);
+
+    font-weight: 900;
+}
+
+.items-Brand-Popular:hover{
+   background-size: 105%;
 }
 .items-Brand-Popular p{
    padding-left: 48px ;
    font-size: var(--Brand-Popular-Title);
    font-weight: 500;
-   cursor: pointer;
+
    
 }
 .items-Brand-Popular:hover{

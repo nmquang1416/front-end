@@ -1,8 +1,16 @@
 .Phone_popular_content_left{
-    background-size: cover;
+    background-size: 100%;
     width: 681px;
     height: 394px;
     text-align: left;
+    border-radius: 8px;
+    transition: var(--Trans);
+    cursor: pointer;
+}
+.Phone_popular_content_left:hover{
+    transform: scale(1.03);
+    background-size: 105%;
+    box-shadow: var(--shadow);
 }
 .Phone_popular_content_left .content{
     align-items: flex-start;

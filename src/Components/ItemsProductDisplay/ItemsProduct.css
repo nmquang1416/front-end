@@ -5,10 +5,23 @@
 .ItemsProduct{
     width: 262px;
     height: 343px;
+    cursor: pointer;
 }
+.ItemsProduct:hover p{
+    color: var(--Secondary);
+}
+.ItemsProduct:hover img{
+    width: 100%;
+    transform: scale(1.1);
+    transform-origin: center;
+    
+
+}
+
 .ItemsProduct img{
     width: 100%;
-
+    z-index: 0;
+    transition: var(--Trans);
 }
 .ItemsProduct .content-descript{
     margin: 16px;
@@ -39,9 +52,23 @@
 .ItemsProduct .content-descript button.Button-order{
     background-color: rgba(255, 255, 255, 0);
     color: var(--Primary);
+    transition: var(--Trans);
+    cursor: pointer;
     
+}
+.ItemsProduct .content-descript button.Button-order:hover{
+    background-color: var(--Primary);
+    color: var(--white);
 }
 .ItemsProduct .content-descript button.Button-more{
     background-color: var(--Secondary);
     color: white;
+    transition: var(--Trans);
+    cursor: pointer;
+    border: 1px solid var(--Secondary);
+}
+.ItemsProduct .content-descript button.Button-more:hover{
+    background-color: white;
+    color: var(--Secondary);
+    border: 1px solid var(--Secondary);
 }
