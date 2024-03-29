@@ -15,11 +15,12 @@ import Performance_info from './Performance_info'
 import Question from './Question'
 
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
+import all_data_details from '../Assets/DataofCellinfo/all_data_details';
 
 
 const ProductDetails_Info = (props) => {
     
-    const { id } = useParams(); // param
+    const { id } = useParams(); //  gắn biến id bằng với id sản phẩm
     const [product, setProduct] = useState(null);
 
     React.useEffect(() => { //useEffect để ưu tiên chạy lần lượt từng hàm
@@ -27,9 +28,9 @@ const ProductDetails_Info = (props) => {
 
     }, [])
 
-    const getData = () => {
-        setTimeout(() => {
-            const product_info = all_product_cellinfo.filter((item, index) => {
+    const getData = () => { //hàm lấy dữ liệu
+        setTimeout(() => { // set delay
+            const product_info = all_data_details.filter((item, index) => { //fillter tìm ra giá trị trong mảng có id bằng với id sản phẩm
                 return item.id == id;
             })
             console.log(product_info[0].categories)//in ra cái product_info với giá trị khởi tạo là 0 .categories để lấy ra thông tin categories
@@ -38,21 +39,26 @@ const ProductDetails_Info = (props) => {
         }, 1000)
 
     }
-    const test = all_product_cellinfo.find((item)=>item.id === Number(id))
-    console.log(test)
+
+
+    // const test = all_product_cellinfo.find((item)=>item.id === Number(id))
+    // console.log(test)
+
+
     const getDataRealationProduct = () => {
 
     }
     return (
+        //Bắt đầu load dữ liệu
         <div>{product ? (<div>
             <div className='ProductDetails'>
                 {/* <div>
                     <p>now {id}</p>
                 </div> */}
-                <Breadcrumbs page="Product" name={test.name} />
+                <Breadcrumbs page="Product" name={product.name} />
                 <div className='ProductDetails_Info'>
                     <div className="Details-info-left">
-                        <img src={img_large} alt="" />
+                        <img src={product.img_large} alt="" />
                         <div className="more-img">
                             <img src={product.img_small_1} alt="" />
                             <img src={product.img_small_2} alt="" />
@@ -63,7 +69,7 @@ const ProductDetails_Info = (props) => {
                     <div className="Details-info-right">
                         <p className="title">{product.name}</p>
                         <p className="sub-title">
-                            {product.Description}
+                            {product.des}
                         </p>
 
                         <p className="heading">Color</p>
@@ -95,9 +101,9 @@ const ProductDetails_Info = (props) => {
                 </div>
                 <div className="ProductDetails_More">
                     <div className="nav-phone-info">
-                        <Link to={"/ProductOfCellinfo/" + product.id +"/General"}><div className="phone-info-items General">General</div></Link>
-                        <Link to={"/ProductOfCellinfo/" + props.id +"/Performance"}><div className="phone-info-items Performance">Performance</div></Link>
-                        <Link to={"/ProductOfCellinfo/" + props.id +"/Question"}><div className="phone-info-items Performance">Question</div></Link>
+                        <Link to={"/ProductOfCellinfo/" }><div className="phone-info-items General">General</div></Link>
+                        <Link to={"/ProductOfCellinfo/" }><div className="phone-info-items Performance">Performance</div></Link>
+                        <Link to={"/ProductOfCellinfo/" }><div className="phone-info-items Performance">Question</div></Link>
                     </div>
                     <div className="iphone-info-details">
                         <General_info/>

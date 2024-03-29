@@ -8,7 +8,7 @@
 }
 .ProductDetails_Info{
     display: flex;
-    margin-top: 64px;
+
 }
 
 .ProductDetails_Info .Details-info-left{
@@ -45,6 +45,8 @@
     margin-bottom: 8px;
     color: var(--Primary);
 }
+
+
 
 .ProductDetails_Info .Details-info-right .Color-choice .Color{
     display: block;
@@ -170,4 +172,29 @@
     font-size: 20px;
     color: var(--Gray-80);
     font-weight: 100;
+}
+.ProductDetails_Info .Details-info-right .Color-choice .Color{
+    cursor: pointer;
+}
+
+.ProductDetails_Info .Details-info-right .Color-choice .white:hover{
+    border: 2px solid var(--Primary);
+}
+.ProductDetails_Info .Details-info-right .Color-choice .black:hover{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid var(--Primary);
+}
+.ProductDetails_Info .Details-info-right .Color-choice .blue:hover{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid var(--Primary);
+}
+.ProductDetails_Info .Details-info-right .Color-choice .Color.gold:hover{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 2px solid var(--Primary);
 }
