@@ -15,7 +15,6 @@ const ItemsProduct = (props) => {
         <div className="button-product-card">
           <button className="Button-order">{props.button_1}</button>
           <Link to="/ProductOfCellinfo/{2}"><button className="Button-more">{props.button_2}</button></Link>
-          
         </div>
       </div>
     </div>
