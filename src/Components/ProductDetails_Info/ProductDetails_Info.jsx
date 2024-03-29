@@ -14,10 +14,11 @@ import General_info from './General_info'
 import Performance_info from './Performance_info'
 import Question from './Question'
 
-
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 
 
 const ProductDetails_Info = (props) => {
+    
     const { id } = useParams(); // param
     const [product, setProduct] = useState(null);
 
@@ -37,6 +38,8 @@ const ProductDetails_Info = (props) => {
         }, 1000)
 
     }
+    const test = all_product_cellinfo.find((item)=>item.id === Number(id))
+    console.log(test)
     const getDataRealationProduct = () => {
 
     }
@@ -46,8 +49,7 @@ const ProductDetails_Info = (props) => {
                 {/* <div>
                     <p>now {id}</p>
                 </div> */}
-                
-
+                <Breadcrumbs page="Product" name={test.id} />
                 <div className='ProductDetails_Info'>
                     <div className="Details-info-left">
                         <img src={img_large} alt="" />

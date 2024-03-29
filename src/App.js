@@ -15,6 +15,7 @@ import ProductDetails_Info from './Components/ProductDetails_Info/ProductDetails
 import General_info from './Components/ProductDetails_Info/General_info'
 import Performance_info from './Components/ProductDetails_Info/Performance_info'
 import Question from './Components/ProductDetails_Info/Question'
+import ContactUs from './Components/ContactUs/ContactUs';
 // end Page
 // 
 // import banner_section from './Components/Assets/Img/banner-section.png';
@@ -38,6 +39,7 @@ function App() {
           </Route>
           <Route path='/Service' Component={Service} />
           <Route path='/Compare' Component={Compare} />
+          <Route path='/ContactUs' Component={ContactUs} />
         </Routes>
         <Routes>
           <Route path='/ProductOfCellinfo/:id/General' Component={General_info} />

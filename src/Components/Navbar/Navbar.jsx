@@ -20,6 +20,7 @@ const Navbar = () => {
                     <Link to="/ProductOfCellinfo"> <li onClick = {() => {setMenu("Product")}}>Product{menu==="Product"?<hr/>:<></>}</li></Link>
                     <Link to="/Service"> <li onClick = {() => {setMenu("Service")}}>Service{menu==="Service"?<hr/>:<></>}</li></Link>
                     <Link to="/Compare"><li onClick = {() => {setMenu("Compare")}}>Compare{menu==="Compare"?<hr/>:<></>}</li></Link>
+                    <Link to="/ContactUs"><li onClick = {() => {setMenu("Contact")}}>Contact Us{menu==="Contact"?<hr/>:<></>}</li></Link>
                 </ul>
                 <div className="nav-input-search">
                     <form>

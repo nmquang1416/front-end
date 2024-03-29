@@ -4,6 +4,8 @@ import ProductFillter from '../Components/ProductFillter/ProductFillter';
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
 import ProductDetails_Info from '../Components/ProductDetails_Info/ProductDetails_Info'
 import Banner_section from '../Components/Assets/Img/banner-section.png'
+import Breadcrumbs from '../Components/Breadcrumbs/Breadcrumbs';
+
 
 const Product = () => {
   return (
@@ -13,7 +15,9 @@ const Product = () => {
           <h1>Product - Cellinfo.com</h1>
         </div>
       </div>
+      <Breadcrumbs page="About Us" />
       <div className='Product'>
+        
         <ProductFillter />
         <ProductDisplay />
       </div>

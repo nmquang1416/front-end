@@ -63,6 +63,7 @@
     outline: none;
     border-radius: 8px;
     margin-right: 8px;
+    width: 125px;
 }
 .nav-input-search form input:hover{
     border: 1px solid var(--Gray-60);

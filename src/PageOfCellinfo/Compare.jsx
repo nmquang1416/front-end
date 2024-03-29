@@ -2,6 +2,7 @@ import React from 'react'
 import ProductCompare from '../Components/ProductCompare/ProductCompare';
 import './Css/Compare.css';
 import Banner_section from '../Components/Assets/Img/banner-section.png'
+import Breadcrumbs from '../Components/Breadcrumbs/Breadcrumbs';
 
 const Compare = () => {
   return (
@@ -11,6 +12,7 @@ const Compare = () => {
           <h1>Compare</h1>
         </div>
       </div>
+      <Breadcrumbs page="Compare" />
       <ProductCompare/>
     </div>
   )
