@@ -15,6 +15,10 @@
   --Primary: #4A5291;
   --Secondary: #E9545E;
 }
+:root{
+  --Trans: 0.4s cubic-bezier(.86, .01, .15, .99);
+  --shadow:  #00000060 0 3px 3px 1px;
+}
 
 :root{
   /* placeholder */

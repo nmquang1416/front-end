@@ -12,14 +12,14 @@ const Navbar = () => {
         <div className="container-nav">
             <div className='navbar'>
                 <div className='nav-logo'>
-                    <img src={logo} alt="logo-cellinfo" />
+                    <Link to="/"><img src={logo} alt="logo-cellinfo" /></Link>
                 </div>
                 <ul className='nav-menu'>
-                    <li onClick = {() => {setMenu("Home")}}><Link to="/">Home</Link>{menu==="Home"?<hr/>:<></>}</li>
-                    <li onClick = {() => {setMenu("About us")}}><Link to="/AboutUs">About us</Link>{menu==="About us"?<hr/>:<></>}</li>
-                    <li onClick = {() => {setMenu("Product")}}><Link to="/ProductOfCellinfo">Product</Link>{menu==="Product"?<hr/>:<></>}</li>
-                    <li onClick = {() => {setMenu("Service")}}><Link to="/Service">Service</Link>{menu==="Service"?<hr/>:<></>}</li>
-                    <li onClick = {() => {setMenu("Compare")}}><Link to="/Compare">Compare</Link> {menu==="Compare"?<hr/>:<></>}</li>
+                    <Link to="/"><li onClick = {() => {setMenu("Home")}}>Home{menu==="Home"?<hr/>:<></>}</li></Link>
+                    <Link to="/AboutUs"> <li onClick = {() => {setMenu("About us")}}>About us{menu==="About us"?<hr/>:<></>}</li></Link>
+                    <Link to="/ProductOfCellinfo"> <li onClick = {() => {setMenu("Product")}}>Product{menu==="Product"?<hr/>:<></>}</li></Link>
+                    <Link to="/Service"> <li onClick = {() => {setMenu("Service")}}>Service{menu==="Service"?<hr/>:<></>}</li></Link>
+                    <Link to="/Compare"><li onClick = {() => {setMenu("Compare")}}>Compare{menu==="Compare"?<hr/>:<></>}</li></Link>
                 </ul>
                 <div className="nav-input-search">
                     <form>

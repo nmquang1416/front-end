@@ -2,7 +2,16 @@
 .Items_OnsaleBanner{
     width: 372px;
     height: 244px;
+    transition: var(--Trans);
+    border-radius: 16px;
+    cursor: pointer;
 }
+
+.Items_OnsaleBanner:hover{
+    transform: scale(1.03);
+    box-shadow: var(--shadow);
+}
+
 
 .Items_OnsaleBanner img{
     width: 100%;

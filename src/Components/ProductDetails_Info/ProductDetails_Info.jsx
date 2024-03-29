@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import img_large from '../Assets/Img/img-large.png'
 import img_small from '../Assets/Img/img-small.png'
 import './ProductDetails_Info.css'
@@ -11,19 +11,37 @@ import all_product_cellinfo from '../Assets/DataofCellinfo/all_product_cellinfo'
 import { GetId } from "../ProductDisplay/ProductDisplay";
 
 
-// let { product_id } = useParams(); // param
 
-function ProductDetails_Info () {
 
-    let {id} = useParams();
+const ProductDetails_Info = ()=>{
+    const { id } = useParams(); // param
+    const [product, setProduct] = useState(null);
 
-    // const filter = all_product_cellinfo.filter()
-    
+    React.useEffect(()=>{
+        getData()///step 1
+        
+    }, [])
 
+    const getData = ()=>{
+        setTimeout(()=>{
+            const product_info = all_product_cellinfo.filter((item, index)=>{
+                return item.id == id;
+            })
+            console.log(product_info[0].categories)
+            getDataRealationProduct()
+            setProduct(product_info[0])
+        }, 1000)
+        
+    }
+    const getDataRealationProduct = ()=>{
+
+    }
     return (
-        <div className='ProductDetails'>
+        <div>{product?(<div>
+
+<div className='ProductDetails'>
             <div>
-            <p>now {all_product_cellinfo.map(user => user.id)}</p>
+            <p>now {id}</p>
         </div>
 
             <div className='ProductDetails_Info'>
@@ -37,7 +55,7 @@ function ProductDetails_Info () {
                     </div>
                 </div>
                 <div className="Details-info-right">
-                    <p className="title">Iphone 15 pro max</p>
+                    <p className="title">{product.name}</p>
                     <p className="sub-title">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                     </p>
@@ -85,7 +103,11 @@ function ProductDetails_Info () {
                 </div>
             </div>
         </div>
+
+        </div>):(<div>
+            Loading...
+        </div>)}</div>
+        
     )
 }
-
 export default ProductDetails_Info

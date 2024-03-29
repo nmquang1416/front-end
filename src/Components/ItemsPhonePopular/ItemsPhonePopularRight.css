@@ -1,14 +1,23 @@
 .Phone_popular_content_right{
-    background-size: cover;
+    background-size: 100%;
     width: 451px;
     height: 189px;
     text-align: right;
+    border-radius: 8px;
+    transition: var(--Trans);
+    overflow: hidden;
 }
 .content{
     display: flex;
     flex-direction: column;
     align-items: end;
     padding: 24px;
+
+}
+.Phone_popular_content_right:hover{
+    transform: scale(1.03);
+    background-size: 120%;
+    box-shadow: var(--shadow);
 }
 .Phone_popular_content_right .title-card-large{
     font-size: 30px;
@@ -23,9 +32,19 @@
     float: right;
     width: 45%;
 }
+
+.Phone_popular_content_right .content:hover{
+    
+}
 .Phone_popular_content_right button{
   margin-top: 16px;
   border: none;
   background-color: #ffffff00;
   color: var(--Secondary);
+  transition: 1s;
+}
+button.button-medium:hover{
+    cursor: pointer;
+    color: var(--Primary);
+
 }
