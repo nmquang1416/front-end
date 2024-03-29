@@ -49,7 +49,7 @@ const ProductDetails_Info = (props) => {
                 {/* <div>
                     <p>now {id}</p>
                 </div> */}
-                <Breadcrumbs page="Product" name={test.id} />
+                <Breadcrumbs page="Product" name={test.name} />
                 <div className='ProductDetails_Info'>
                     <div className="Details-info-left">
                         <img src={img_large} alt="" />
