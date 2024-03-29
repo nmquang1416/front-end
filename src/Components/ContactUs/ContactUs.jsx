@@ -1,15 +1,15 @@
 import React from 'react'
 import './ContactUs.css'
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs'
-
+import Banner_section from '../Assets/Img/banner-section.png'
 const ContactUs = () => {
   return (
     <div className='Contact-Us'>
-        <Breadcrumbs page="Contact Us" />
+        <Breadcrumbs page="Contact-Us" />
         <div className="Container-Contact">
             <div className="Container-Contact-Left">
                 <form action="">
-                    <label htmlFor="name" className='label-contact'>Name</label>
+                    <label htmlFor="name" className='label-contact' >Name</label>
                     <input type="text" className="input" id='name' placeholder='Nguyen Minh Quang'/>
                     <label htmlFor="company" className='label-contact'>Company</label>
                     <input type="text" className="input" id='name' placeholder='Compay Name...'/>
@@ -22,7 +22,9 @@ const ContactUs = () => {
                 </form>
             </div>
             <div className="Container-Contact-Right">
-                <img src="" alt="" />
+                <p className="title">Contact Us</p>
+                <p className="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <button className='btn'> Send</button>
             </div>
         </div>
     </div>

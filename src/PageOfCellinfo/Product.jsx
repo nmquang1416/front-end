@@ -15,7 +15,7 @@ const Product = () => {
           <h1>Product - Cellinfo.com</h1>
         </div>
       </div>
-      <Breadcrumbs page="About Us" />
+      <Breadcrumbs page="Product" />
       <div className='Product'>
         
         <ProductFillter />

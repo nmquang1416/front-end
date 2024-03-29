@@ -1,9 +1,14 @@
+
 .Container-Contact{
     width: 1148px;
     margin: auto;
+    display: flex;
+    box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.192);
+    border-radius: 8px;
 }
 .Container-Contact .Container-Contact-Left{
     width: 50%;
+    padding: 36px;
 }
 .Container-Contact .Container-Contact-Left form{
     display: flex;
@@ -20,7 +25,7 @@
 .Container-Contact .Container-Contact-Left form input.input{
     height: 48px;
     border-radius: 4px;
-    border: 1px solid var(--Gray-80);
+    border: 1px solid var(--Gray-50);
     margin-bottom: 16px;
     padding-left: 16px;
 }
@@ -28,10 +33,67 @@
     height: 92px;
     padding: 16px 0px 0px 16px;
     border-radius: 8px;
+    border: 1px solid var(--Gray-50);
 }
 .Container-Contact .Container-Contact-Left form input.input:focus-visible{
     outline-color: var(--Primary);
 }
 .Container-Contact .Container-Contact-Left form textarea:focus-visible{
     outline-color: var(--Primary);
+}
+
+.Container-Contact .Container-Contact-Right .title{
+    font-size: 48px;
+}
+.Container-Contact .Container-Contact-Right{
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, var(--Secondary), #e73c7e, #23a6d5, var(--Primary));
+    animation: gradient-anim 15s ease infinite;
+    background-size: 400% 400%;
+    width: 50%;
+    border-radius: 0px 8px 8px 0px; 
+    color: var(--white);
+}
+.Container-Contact .Container-Contact-Right .title{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.Container-Contact .Container-Contact-Right .sub-title{
+    width: 80%;
+}
+.Container-Contact .Container-Contact-Right .btn{
+    margin-top: 64px;
+    padding: 20px 64px;
+    border-radius: 8px;
+    border: 3px solid var(--white);
+    font-size: 16px;
+    color: var(--Gray-80);
+    font-weight: 700;
+    background-color: var(--white);
+    transition: var(--Trans);
+    cursor: pointer;
+}
+
+.Container-Contact .Container-Contact-Right .btn:hover{
+    background-color: var(--Secondary);
+    color: var(--white);
+}
+@keyframes gradient-anim {
+
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
 }
