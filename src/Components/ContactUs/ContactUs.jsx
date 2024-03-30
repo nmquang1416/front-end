@@ -14,7 +14,7 @@ const ContactUs = () => {
                     <label htmlFor="company" className='label-contact'>Company</label>
                     <input type="text" className="input" id='name' placeholder='Compay Name...' required/>
                     <label htmlFor="phone" className='label-contact'>Phone</label>
-                    <input type="text" className="input" id='phone' placeholder='0123 456 789... required'/>
+                    <input type="text" className="input" id='phone' placeholder='0123 456 789... ' required/>
                     <label htmlFor="email" className='label-contact'>Email</label>
                     <input type="text" className="input" id='email' placeholder='Email...'  required/>
                     <label htmlFor="note" className='label-contact'>Note</label>

@@ -31,7 +31,7 @@ let all_data_details = [
     },
     {   
         id: 2,
-        name:"iPhone 13 Pro Max",
+        name:"Iphone 12 Pro",
         des:"iPhone 13 Plus is highly appreciated for its 6.7-inch Dynamic Island screen with impressive tinted back glass, powerful A16 Bionic chip and USB-C",
         color: 4,
         storage: 3,

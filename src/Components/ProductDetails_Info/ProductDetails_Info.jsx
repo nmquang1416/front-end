@@ -19,6 +19,11 @@ import all_data_details from '../Assets/DataofCellinfo/all_data_details';
 
 
 const ProductDetails_Info = (props) => {
+    //-------------------------------------------------------------------------//// Khoi va trinh
+
+    
+
+    //-------------------------------------------------------------------------////
     
     const { id } = useParams(); //  gắn biến id bằng với id sản phẩm
     const [product, setProduct] = useState(null);
