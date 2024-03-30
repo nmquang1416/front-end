@@ -13,12 +13,12 @@ const PhonePopular = () => {
             <div className='Phone_Popular'>
                 <div className="content-right">
                     {all_phone_popular_left.map((items, i) => {
-                        return <ItemsPhonePopularLeft key={i} img={items.img} title={items.title} sub_title={items.sub_title} button={items.button} />
+                        return <ItemsPhonePopularLeft key={i} link={items.link} img={items.img} title={items.title} sub_title={items.sub_title} button={items.button} />
                     })}
                 </div>
                 <div className="content-left">
                     {all_phone_popular_right.map((items, i) => {
-                        return <ItemsPhonePopularRight key={i} img={items.img} title={items.title} sub_title={items.sub_title} button={items.button} />
+                        return <ItemsPhonePopularRight key={i} link={items.link} img={items.img} title={items.title} sub_title={items.sub_title} button={items.button} />
                     })}
                 </div>
             </div>

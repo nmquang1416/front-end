@@ -4,7 +4,7 @@ import './ItemsService.css';
 
 const ItemsService = (props) => {
   return (
-    <div className="ItemsService">
+    <div className="ItemsService" onClick={props.event_element}>
       <div className="content-Service">
         <div className="content-service-right">
           <img src={props.icon} alt="" />

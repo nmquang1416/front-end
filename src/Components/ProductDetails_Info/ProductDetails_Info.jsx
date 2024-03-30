@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import img_large from '../Assets/Img/img-large.png'
-import img_small from '../Assets/Img/img-small.png'
-import './ProductDetails_Info.css'
+import React, { useState } from 'react';
+import img_large from '../Assets/Img/img-large.png';
+import img_small from '../Assets/Img/img-small.png';
+import './ProductDetails_Info.css';
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
@@ -10,12 +10,16 @@ import all_product_cellinfo from '../Assets/DataofCellinfo/all_product_cellinfo'
 
 import { GetId } from "../ProductDisplay/ProductDisplay";
 
-import General_info from './General_info'
-import Performance_info from './Performance_info'
-import Question from './Question'
+import General_info from './General_info';
+import Performance_info from './Performance_info';
+import Question from './Question';
 
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import all_data_details from '../Assets/DataofCellinfo/all_data_details';
+
+import DocPDf from '../Assets/The_Mobile_Phone_in_Everyday_Life.pdf';
+
+
 
 
 const ProductDetails_Info = (props) => {
@@ -99,7 +103,7 @@ const ProductDetails_Info = (props) => {
 
                         <div className="btn-action">
                             <Link to="/Compare"><button className='btn-high-emphasis Compare'>Compare</button></Link>
-                            <button className='btn-high-emphasis Download'>Download Doc</button>
+                            <a href={DocPDf} target='blank' download={DocPDf}><button className='btn-high-emphasis Download'>Download Doc</button></a>
                             <button className='btn-low-emphasis Order'>Order</button>
                         </div>
                     </div>

@@ -1,9 +1,7 @@
-import br_apple from '../Img/apple-brand.png';
-import br_samsung from '../Img/apple-brand.png';
-import br_oppo from '../Img/apple-brand.png';
-import br_nokia from '../Img/apple-brand.png';
-import br_xiaomi from '../Img/apple-brand.png';
-import br_asus from '../Img/apple-brand.png';
+import br_apple from '../Img/BrandPopular/apple-brand.png';
+import br_samsung from '../Img/BrandPopular/samsung-brand.png';
+import br_oppo from '../Img/BrandPopular/oppo-popular.png';
+import br_Xiaomi from '../Img/BrandPopular/xiami-brand.png';
 
 
 let all_brand_popular = [
@@ -14,7 +12,7 @@ let all_brand_popular = [
     },
     {
         br_id: 2,
-        br_name: "samsung",
+        br_name: "Samsung",
         br_image: br_samsung,
     },
     {
@@ -24,8 +22,8 @@ let all_brand_popular = [
     },
     {
         br_id: 4,
-        br_name: "Nokia",
-        br_image: br_nokia,
+        br_name: "Xiaomi",
+        br_image: br_Xiaomi,
     },
     // {
     //     br_id: 5,

@@ -112,6 +112,24 @@
     display: flex;
     gap: 8px;
 }
+.ProductDetails_Info .Details-info-right .btn-action .Compare:hover{
+    background-color: var(--white);
+    color: var(--Secondary);
+    border: solid 1px var(--Secondary);
+    cursor: pointer;
+}
+.ProductDetails_Info .Details-info-right .btn-action .Download:hover{
+    background-color: var(--white);
+    color: var(--Secondary);
+    border: solid 1px var(--Secondary);
+    cursor: pointer;
+}
+.ProductDetails_Info .Details-info-right .btn-action .Order:hover{
+    background-color: var(--Primary);
+    color: var(--white);
+    border: solid 1px var(--Primary);
+    cursor: pointer;
+}
 
 .ProductDetails_Info .Details-info-right .btn-action .btn-low-emphasis{
     padding: 16px 0px;
@@ -121,6 +139,9 @@
     border: solid 1px var(--Primary);
     color: var(--Primary);
     background-color: #ffffff00;
+    transition: var(--Trans);
+    cursor: pointer;
+
 }
 
 .ProductDetails_Info .Details-info-right .btn-action .btn-high-emphasis {
@@ -130,7 +151,9 @@
     border-radius: 8px;
     border: none;
     color: var(--white);
+    border: solid 1px var(--Secondary);
     background-color: var(--Secondary);
+    transition: var(--Trans);
 }
 
 .ProductDetails_Info .Details-info-right .btn-action {
