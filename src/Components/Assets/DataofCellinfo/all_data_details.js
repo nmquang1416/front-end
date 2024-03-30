@@ -1,10 +1,13 @@
 import React from 'react'
-//img large
-import img_large_1 from '../Img/iphone-13-large.jpg';
+//img iphone 13
+import img_large_1 from '../Img/iphone_13/large.jpg';
+import img_small_1 from '../Img/iphone_13/small-1.jpg';
+import img_small_2 from '../Img/iphone_13/small-2.png';
+import img_small_3 from '../Img/iphone_13/small-3.jpg';
+import img_small_4 from '../Img/iphone_13/small-4.jpeg';
 
 
-//img small
-import img_small_1 from '../Img/iphone-13.jpg';
+
 
 let all_data_details = [
 
@@ -22,9 +25,9 @@ let all_data_details = [
         button_order:"Order",
         img_large:img_large_1,
         img_small_1:img_small_1,
-        img_small_2:img_small_1,
-        img_small_3:img_small_1,
-        img_small_4:img_small_1,
+        img_small_2:img_small_2,
+        img_small_3:img_small_3,
+        img_small_4:img_small_4,
     },
     {   
         id: 2,
