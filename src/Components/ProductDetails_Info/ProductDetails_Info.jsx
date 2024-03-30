@@ -106,9 +106,9 @@ const ProductDetails_Info = (props) => {
                 </div>
                 <div className="ProductDetails_More">
                     <div className="nav-phone-info">
-                        <Link to={"/ProductOfCellinfo/" }><div className="phone-info-items General">General</div></Link>
-                        <Link to={"/ProductOfCellinfo/" }><div className="phone-info-items Performance">Performance</div></Link>
-                        <Link to={"/ProductOfCellinfo/" }><div className="phone-info-items Performance">Question</div></Link>
+                        <div className="phone-info-items General">General</div>
+                        <div className="phone-info-items Performance">Performance</div>
+                        <div className="phone-info-items Performance">Question</div>
                     </div>
                     <div className="iphone-info-details">
                         <General_info/>
