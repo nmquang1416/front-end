@@ -4,6 +4,7 @@ import BrandPopular from '../Components/BrandPopular/BrandPopular';
 import PhonePopular from '../Components/PhonePopular/PhonePopular';
 import OnSale from '../Components/OnSale/OnSale';
 import Footer from '../Components/Footer/Footer'
+import './Css/Home.css'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <BrandPopular/>
       <PhonePopular/>
       <OnSale/>
+      
     </div>
   )
 }

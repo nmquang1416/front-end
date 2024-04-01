@@ -85,6 +85,13 @@ let all_data_details = [
         img_small_2:img_small_2,
         img_small_3:img_small_3,
         img_small_4:img_small_4,
+        //----
+        title_general_1: "Powerful performance with advanced A17 Pro chipset",
+        sub_general_1: "The A17 Pro chip is equipped with a special AV1 decoder, which helps improve video quality and save battery when you use streaming services. At the same time, the new USB controller has been enhanced to support USB 3 speeds for the first time on iPhone, providing significantly faster data transfers and supporting video output with 4K HDR resolution at speed 60 fps.",
+        title_general_2: "Outstanding screen technology",
+        sub_general_2: "The OLED screen on iPhone 15 Pro Max is a special feature not to be missed. With a size of 6.7 inches with a peak resolution of 2796x1179 pixels, 120Hz refresh rate and pixel density of up to 460 ppi, the screen brings an impressive experience to users. It is also equipped with HDR technology, helping to display colors and brightness more realistically than ever before.",
+        title_general_3: "Unique Dynamic Island feature",
+        sub_general_3: "Although it is not the first time appearing on the iPhone, the fact that Dynamic Island continues to be equipped on the Apple iPhone 15 Pro Max still meets the needs of users. Dynamic Island offers an exciting experience with a variety of features such as music and maps without leaving the open application. Besides, the real-time notification update feature brings convenience when using the IP 15 Pro Max phone."
     },
     {   
         id: 2,
@@ -103,6 +110,12 @@ let all_data_details = [
         img_small_2:img_small_6,
         img_small_3:img_small_7,
         img_small_4:img_small_8,
+        title_general_1: "Powerful performance with advanced A17 Pro chipset",
+        sub_general_1: "The A17 Pro chip is equipped with a special AV1 decoder, which helps improve video quality and save battery when you use streaming services. At the same time, the new USB controller has been enhanced to support USB 3 speeds for the first time on iPhone, providing significantly faster data transfers and supporting video output with 4K HDR resolution at speed 60 fps.",
+        title_general_2: "Outstanding screen technology",
+        sub_general_2: "The OLED screen on iPhone 15 Pro Max is a special feature not to be missed. With a size of 6.7 inches with a peak resolution of 2796x1179 pixels, 120Hz refresh rate and pixel density of up to 460 ppi, the screen brings an impressive experience to users. It is also equipped with HDR technology, helping to display colors and brightness more realistically than ever before.",
+        title_general_3: "Unique Dynamic Island feature",
+        sub_general_3: "Although it is not the first time appearing on the iPhone, the fact that Dynamic Island continues to be equipped on the Apple iPhone 15 Pro Max still meets the needs of users. Dynamic Island offers an exciting experience with a variety of features such as music and maps without leaving the open application. Besides, the real-time notification update feature brings convenience when using the IP 15 Pro Max phone."
     },
     {   
         id: 3,
@@ -121,6 +134,12 @@ let all_data_details = [
         img_small_2:img_small_26,
         img_small_3:img_small_27,
         img_small_4:img_small_28,
+        title_general_1: "Why should you buy Samsung Galaxy S24 Ultra?",
+        sub_general_1: "In early 2024, Samsung launched Samsung S24 Ultra - Flagship leading the trend with integrated AI technology and many other outstanding features and advantages. Standout AI features on the latest Samsung phones include: Galaxy AI with Circle to search, Photo Assist, Live Translate, Note Assist features.Sturdy titanium frame, helping the device to be durable over time.Color versions inspired by natural stone material, bringing luxurious and modern beauty.The camera integrates excellent AI technology, improving image quality and processing capabilities.Extreme performance with Snapdragon 8 Gen3 for Galaxy chip, smooth gameplay.Strong 5000mAh battery, lasting all day long, so you don't miss important moments.Dynamic AMOLED 2X screen with brightness up to 2600 nits, immerse yourself in a world of brilliant and colorful images.",
+        title_general_2: "Buy Samsung S24 Ultra with exclusive offers at CellphoneS",
+        sub_general_2: "In order to help customers have the opportunity to immediately own the first AI Phone from Samsung, CellphoneS has OFFICIALLY OPEN SALE of the super product Samsung S24 Ultra from January 27. In particular, when buying the Samsung Galaxy S24 Ultra phone at CellphoneS, customers will receive an attractive gift set including:",
+        title_general_3: "Samsung Galaxy S24 Ultra - AI Phone with many outstanding technologies",
+        sub_general_3: "Samsung Galaxy S24 Ultra excites users thanks to major changes in both design and performance. What are the upgrades on the most advanced version of the Galaxy S24 Series? Join CellphoneS to learn more details about Samsung's new flagship model in the review below"
     },
     {   
         id: 4,
@@ -139,6 +158,12 @@ let all_data_details = [
         img_small_2:img_small_30,
         img_small_3:img_small_31,
         img_small_4:img_small_32,
+        title_general_1: "Yellow version - Exclusively available only at CellphoneS",
+        sub_general_1: "Xiaomi Redmi Note 12 was launched by Xiaomi with many different color versions for users to choose from, however yellow is the most impressive color in this Redmi Note 12 series and is currently sold exclusively at CellphoneS.Redmi Note 12 Dawn Gold with eye-catching gradient color transition effect combined with flat frame design brings a sophisticated design.Along with the success of launching the 12 series, Xiaomi has now launched the genuine Xiaomi Note 13 in Vietnam with a super shocking price, should you upgrade now and take a look?",
+        title_general_2: "Xiaomi Redmi Note 12 8GB Gold phone - Outstanding configuration, top-notch photography",
+        sub_general_2: "Xiaomi Redmi Note 12 8GB 128GB is probably the most mentioned name when talking about good smartphones in the mid-range price segment. This 12th generation of the Xiaomi Redmi Note Series is highly appreciated for its trendy exterior design and powerful performance through a modern Qualcomm chipset. Below are detailed reviews of the specifications of Xiaomi Redmi Note 12 that you can refer to!",
+        title_general_3: "Experience every task smoothly with the modern Snapdragon 685 chipset",
+        sub_general_3: "The processing and computing power of the golden Xiaomi Redmi Note 12 comes from Qualcomm's modern chip - Snapdragon 685. This is a chip manufactured on a 6nm process, providing impressive performance with maximum clock speed. up to 2.8GHz."
     },
     {   
         id: 5,
@@ -157,6 +182,12 @@ let all_data_details = [
         img_small_2:img_small_22,
         img_small_3:img_small_23,
         img_small_4:img_small_24,
+        title_general_1: "Why should you buy Samsung Galaxy S24 Ultra?",
+        sub_general_1: "In early 2024, Samsung launched Samsung S24 Ultra - Flagship leading the trend with integrated AI technology and many other outstanding features and advantages. Standout AI features on the latest Samsung phones include: Galaxy AI with Circle to search, Photo Assist, Live Translate, Note Assist features.Sturdy titanium frame, helping the device to be durable over time.Color versions inspired by natural stone material, bringing luxurious and modern beauty.The camera integrates excellent AI technology, improving image quality and processing capabilities.Extreme performance with Snapdragon 8 Gen3 for Galaxy chip, smooth gameplay.Strong 5000mAh battery, lasting all day long, so you don't miss important moments.Dynamic AMOLED 2X screen with brightness up to 2600 nits, immerse yourself in a world of brilliant and colorful images.",
+        title_general_2: "Buy Samsung S24 Ultra with exclusive offers at CellphoneS",
+        sub_general_2: "In order to help customers have the opportunity to immediately own the first AI Phone from Samsung, CellphoneS has OFFICIALLY OPEN SALE of the super product Samsung S24 Ultra from January 27. In particular, when buying the Samsung Galaxy S24 Ultra phone at CellphoneS, customers will receive an attractive gift set including:",
+        title_general_3: "Samsung Galaxy S24 Ultra - AI Phone with many outstanding technologies",
+        sub_general_3: "Samsung Galaxy S24 Ultra excites users thanks to major changes in both design and performance. What are the upgrades on the most advanced version of the Galaxy S24 Series? Join CellphoneS to learn more details about Samsung's new flagship model in the review below"
     },
     {   
         id: 6,
@@ -175,6 +206,12 @@ let all_data_details = [
         img_small_2:img_small_18,
         img_small_3:img_small_19,
         img_small_4:img_small_20,
+        title_general_1: "Why should you buy Samsung Galaxy S24 Ultra?",
+        sub_general_1: "In early 2024, Samsung launched Samsung S24 Ultra - Flagship leading the trend with integrated AI technology and many other outstanding features and advantages. Standout AI features on the latest Samsung phones include: Galaxy AI with Circle to search, Photo Assist, Live Translate, Note Assist features.Sturdy titanium frame, helping the device to be durable over time.Color versions inspired by natural stone material, bringing luxurious and modern beauty.The camera integrates excellent AI technology, improving image quality and processing capabilities.Extreme performance with Snapdragon 8 Gen3 for Galaxy chip, smooth gameplay.Strong 5000mAh battery, lasting all day long, so you don't miss important moments.Dynamic AMOLED 2X screen with brightness up to 2600 nits, immerse yourself in a world of brilliant and colorful images.",
+        title_general_2: "Buy Samsung S24 Ultra with exclusive offers at CellphoneS",
+        sub_general_2: "In order to help customers have the opportunity to immediately own the first AI Phone from Samsung, CellphoneS has OFFICIALLY OPEN SALE of the super product Samsung S24 Ultra from January 27. In particular, when buying the Samsung Galaxy S24 Ultra phone at CellphoneS, customers will receive an attractive gift set including:",
+        title_general_3: "Samsung Galaxy S24 Ultra - AI Phone with many outstanding technologies",
+        sub_general_3: "Samsung Galaxy S24 Ultra excites users thanks to major changes in both design and performance. What are the upgrades on the most advanced version of the Galaxy S24 Series? Join CellphoneS to learn more details about Samsung's new flagship model in the review below"
     },
     {   
         id: 7,
@@ -193,6 +230,12 @@ let all_data_details = [
         img_small_2:img_small_14,
         img_small_3:img_small_15,
         img_small_4:img_small_16,
+        title_general_1: "Powerful performance with advanced A17 Pro chipset",
+        sub_general_1: "The A17 Pro chip is equipped with a special AV1 decoder, which helps improve video quality and save battery when you use streaming services. At the same time, the new USB controller has been enhanced to support USB 3 speeds for the first time on iPhone, providing significantly faster data transfers and supporting video output with 4K HDR resolution at speed 60 fps.",
+        title_general_2: "Outstanding screen technology",
+        sub_general_2: "The OLED screen on iPhone 15 Pro Max is a special feature not to be missed. With a size of 6.7 inches with a peak resolution of 2796x1179 pixels, 120Hz refresh rate and pixel density of up to 460 ppi, the screen brings an impressive experience to users. It is also equipped with HDR technology, helping to display colors and brightness more realistically than ever before.",
+        title_general_3: "Unique Dynamic Island feature",
+        sub_general_3: "Although it is not the first time appearing on the iPhone, the fact that Dynamic Island continues to be equipped on the Apple iPhone 15 Pro Max still meets the needs of users. Dynamic Island offers an exciting experience with a variety of features such as music and maps without leaving the open application. Besides, the real-time notification update feature brings convenience when using the IP 15 Pro Max phone."
     },
     {   
         id: 8,
@@ -211,6 +254,11 @@ let all_data_details = [
         img_small_2:img_small_34,
         img_small_3:img_small_35,
         img_small_4:img_small_36,
+        sub_general_1: "Xiaomi Redmi Note 12 was launched by Xiaomi with many different color versions for users to choose from, however yellow is the most impressive color in this Redmi Note 12 series and is currently sold exclusively at CellphoneS.Redmi Note 12 Dawn Gold with eye-catching gradient color transition effect combined with flat frame design brings a sophisticated design.Along with the success of launching the 12 series, Xiaomi has now launched the genuine Xiaomi Note 13 in Vietnam with a super shocking price, should you upgrade now and take a look?",
+        title_general_2: "Xiaomi Redmi Note 12 8GB Gold phone - Outstanding configuration, top-notch photography",
+        sub_general_2: "Xiaomi Redmi Note 12 8GB 128GB is probably the most mentioned name when talking about good smartphones in the mid-range price segment. This 12th generation of the Xiaomi Redmi Note Series is highly appreciated for its trendy exterior design and powerful performance through a modern Qualcomm chipset. Below are detailed reviews of the specifications of Xiaomi Redmi Note 12 that you can refer to!",
+        title_general_3: "Experience every task smoothly with the modern Snapdragon 685 chipset",
+        sub_general_3: "The processing and computing power of the golden Xiaomi Redmi Note 12 comes from Qualcomm's modern chip - Snapdragon 685. This is a chip manufactured on a 6nm process, providing impressive performance with maximum clock speed. up to 2.8GHz."
     },
     {   
         id: 9,
@@ -229,6 +277,12 @@ let all_data_details = [
         img_small_2:img_small_10,
         img_small_3:img_small_11,
         img_small_4:img_small_12,
+        title_general_1: "Powerful performance with advanced A17 Pro chipset",
+        sub_general_1: "The A17 Pro chip is equipped with a special AV1 decoder, which helps improve video quality and save battery when you use streaming services. At the same time, the new USB controller has been enhanced to support USB 3 speeds for the first time on iPhone, providing significantly faster data transfers and supporting video output with 4K HDR resolution at speed 60 fps.",
+        title_general_2: "Outstanding screen technology",
+        sub_general_2: "The OLED screen on iPhone 15 Pro Max is a special feature not to be missed. With a size of 6.7 inches with a peak resolution of 2796x1179 pixels, 120Hz refresh rate and pixel density of up to 460 ppi, the screen brings an impressive experience to users. It is also equipped with HDR technology, helping to display colors and brightness more realistically than ever before.",
+        title_general_3: "Unique Dynamic Island feature",
+        sub_general_3: "Although it is not the first time appearing on the iPhone, the fact that Dynamic Island continues to be equipped on the Apple iPhone 15 Pro Max still meets the needs of users. Dynamic Island offers an exciting experience with a variety of features such as music and maps without leaving the open application. Besides, the real-time notification update feature brings convenience when using the IP 15 Pro Max phone."
     },
 
 ]

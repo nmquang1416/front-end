@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { useParams } from 'react-router-dom';
 import all_product_cellinfo from '../Assets/DataofCellinfo/all_product_cellinfo';
 
-import { GetId } from "../ProductDisplay/ProductDisplay";
+import ProductDisplay, { GetId } from "../ProductDisplay/ProductDisplay";
 
 import General_info from './General_info';
 import Performance_info from './Performance_info';
@@ -19,23 +19,35 @@ import all_data_details from '../Assets/DataofCellinfo/all_data_details';
 
 import DocPDf from '../Assets/The_Mobile_Phone_in_Everyday_Life.pdf';
 
+import ItemsProductDisplay from '../ItemsProductDisplay/ItemsProduct'
+import ProductDisplayRelation from '../ProductDisplay/ProductDisplay_relationshop';
+
 
 
 
 const ProductDetails_Info = (props) => {
-    //-------------------------------------------------------------------------//// Khoi va trinh
+ 
 
-    
-
-    //-------------------------------------------------------------------------////
-    
     const { id } = useParams(); //  gắn biến id bằng với id sản phẩm
     const [product, setProduct] = useState(null);
 
-    React.useEffect(() => { //useEffect để ưu tiên chạy lần lượt từng hàm
+    const categories_relation = "";
+    // const [product_relationship, setProduct_relationship] = useState(null)
+    React.useEffect(() => {
+        //useEffect để ưu tiên chạy lần lượt từng hàm
         getData()///step 1
 
     }, [])
+
+
+    
+    // const getData_relationship = () =>{
+    //     const product_relationship_info = all_data_details.filter((item, index) => {
+    //         return item.categories = categories_relation;
+    //     })
+    //     console.log(categories_relation)
+    // }
+   
 
     const getData = () => { //hàm lấy dữ liệu
         setTimeout(() => { // set delay
@@ -43,20 +55,24 @@ const ProductDetails_Info = (props) => {
                 return item.id == id;
             })
             console.log(product_info[0].categories)//in ra cái product_info với giá trị khởi tạo là 0 .categories để lấy ra thông tin categories
-            getDataRealationProduct()//Lấy sản phẩm liên quan
+            // getDataRealationProduct()//Lấy sản phẩm liên quan
             setProduct(product_info[0])
-        }, 1000)
+        }, 350)
 
     }
+   
 
 
     // const test = all_product_cellinfo.find((item)=>item.id === Number(id))
     // console.log(test)
 
 
-    const getDataRealationProduct = () => {
-
-    }
+    // const getDataRealationProduct = () => {
+    //     if (product.categories == "iphone") {
+    //         return <ProductDisplay/>
+    //     }
+        
+    // }
     return (
         //Bắt đầu load dữ liệu
         <div>{product ? (<div>
@@ -64,6 +80,7 @@ const ProductDetails_Info = (props) => {
                 {/* <div>
                     <p>now {id}</p>
                 </div> */}
+                {/* {product.categories} */}
                 <Breadcrumbs page="Product" name={product.name} />
                 <div className='ProductDetails_Info'>
                     <div className="Details-info-left">
@@ -115,13 +132,23 @@ const ProductDetails_Info = (props) => {
                         <div className="phone-info-items Performance">Question</div>
                     </div>
                     <div className="iphone-info-details">
-                        <General_info/>
+                        <p className="Description-title">{product.title_general_1} </p>
+                        <p className="Description-sub-title">{product.sub_general_1}</p>
+                        <p className="Description-title">{product.title_general_2} </p>
+                        <p className="Description-sub-title">{product.sub_general_2}</p>
+                        <p className="Description-title">{product.title_general_3} </p>
+                        <p className="Description-sub-title">{product.sub_general_3}</p>
                     </div>
+                </div>
+                <div className="relationship-product">
+                    {/* <ProductDisplayRelation/> */}
                 </div>
             </div>
 
-        </div>) : (<div>
-            Loading...
+
+        </div>) : (<div className='height'>
+            <span class="loader"></span>
+
         </div>)}</div>
 
     )

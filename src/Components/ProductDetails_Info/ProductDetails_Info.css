@@ -221,3 +221,28 @@
     -webkit-box-sizing: border-box;
     border: 2px solid var(--Primary);
 }
+.height{
+    display: flex;
+    align-items: center;
+    height: 720px;
+    flex-direction: column;
+}
+.loader {
+    margin: auto;
+    width: 108px;
+    height: 108px;
+    border: 10px solid var(--Primary);
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 

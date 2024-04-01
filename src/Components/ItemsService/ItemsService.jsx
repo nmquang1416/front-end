@@ -1,10 +1,15 @@
 import React from 'react';
 import service_icon from '../Assets/Img/service-icon.png';
 import './ItemsService.css';
+import { useRef } from 'react';
 
 const ItemsService = (props) => {
+
+  
+
   return (
-    <div className="ItemsService" onClick={props.event_element}>
+    
+    <div className="ItemsService"  id={props.event_element}>
       <div className="content-Service">
         <div className="content-service-right">
           <img src={props.icon} alt="" />
