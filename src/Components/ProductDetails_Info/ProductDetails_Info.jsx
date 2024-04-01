@@ -121,7 +121,7 @@ const ProductDetails_Info = (props) => {
                         <div className="btn-action">
                             <Link to="/Compare"><button className='btn-high-emphasis Compare'>Compare</button></Link>
                             <a href={DocPDf} target='blank' download={DocPDf}><button className='btn-high-emphasis Download'>Download Doc</button></a>
-                            <button className='btn-low-emphasis Order'>Order</button>
+                            <Link to={"/ProductOfCellinfo/" + product.id}><button className='btn-low-emphasis Order'>Order</button></Link>
                         </div>
                     </div>
                 </div>

@@ -20,17 +20,17 @@ const Footer = () => {
         <div className="Policy">
             <p>Policy</p>
             <ul>
-                <li className="footer-link"><a href="/">Mua hàng và thanh toán online</a></li>
-                <li className="footer-link"><a href="/">Chính sách bảo hành</a></li>
-                <li className="footer-link"><a href="/">Thông tin thanh toán mua hàng</a></li>
+                <li className="footer-link"><a href="http://localhost:3000/Service">Buy and pay online</a></li>
+                <li className="footer-link"><a href="http://localhost:3000/Service">Warranty Policy</a></li>
+                <li className="footer-link"><a href="http://localhost:3000/Service">Purchase payment information</a></li>
             </ul>
         </div>
         <div className="Social-network">
             <p>Social Network</p>
             <ul>
-                <li className="footer-link"><i class="bi bi-facebook"></i></li>
-                <li className="footer-link"><i class="bi bi-twitter"></i></li>
-                <li className="footer-link"><i class="bi bi-github"></i></li>
+                <li className="footer-link"><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+                <li className="footer-link"><a href="https://twitter.com/"><i class="bi bi-twitter"></i></a></li>
+                <li className="footer-link"><a href="https://github.com/"><i class="bi bi-github"></i></a></li>
             </ul>
         </div>
 

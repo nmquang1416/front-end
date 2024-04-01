@@ -1,6 +1,9 @@
 import React from 'react'
 import './ProductCompare.css'
 import iphoneCompare from '../Assets/Img/iphone-conpare.png';
+import compare_2 from '../Assets/Img/Compare/compare_2.png';
+import Compare_3 from '../Assets/Img/Compare/compare_3.png';
+import { Link } from 'react-router-dom';
 
 const ProductCompare = () => {
     return (
@@ -8,24 +11,29 @@ const ProductCompare = () => {
         <div className='Content-Product-Compare'>
             <div className="Box-Compare">
                 <div className="Block-null"></div>
-                <div className="Block-product">
+                <Link to="/ProductOfCellinfo/1"><div className="Block-product">
                     <img src={iphoneCompare} alt="" />
                     <p className="title">iPhone 13 128GB</p>
                     <span className='Price PriceNew'>599$</span>
                     <span className='Price PriceOld'>499$</span>
-                </div>
+                </div></Link>
+                <Link to="/ProductOfCellinfo/3">
                 <div className="Block-product">
-                    <img src={iphoneCompare} alt="" />
-                    <p className="title">iPhone 13 128GB</p>
+                    <img src={compare_2} alt="" />
+                    <p className="title">Samsung galxy s24</p>
                     <span className='Price PriceNew'>599$</span>
                     <span className='Price PriceOld'>499$</span>
                 </div>
+                </Link>
+                <Link to="/ProductOfCellinfo/4">
                 <div className="Block-product">
-                    <img src={iphoneCompare} alt="" />
-                    <p className="title">iPhone 13 128GB</p>
+                    <img src={Compare_3} alt="" />
+                    <p className="title">Xiaomi redmi 14</p>
                     <span className='Price PriceNew'>599$</span>
                     <span className='Price PriceOld'>499$</span>
                 </div>
+                </Link>
+                
             </div>
             <div className="Compare-Details">
                 <table className="Compare-Screen">
@@ -103,9 +111,9 @@ const ProductCompare = () => {
                 <table className="Compare-Button">
                     <tr className="Button-buy">
                         <td className='details-title'></td>
-                        <td className='details-sub-title'><button>Buy now</button></td>
-                        <td className='details-sub-title'><button>Buy now</button></td>
-                        <td className='details-sub-title'><button>Buy now</button></td>
+                        <Link to="/ProductOfCellinfo"><td className='details-sub-title'><button>Buy now</button></td></Link>
+                        <Link to="/ProductOfCellinfo"><td className='details-sub-title'><button>Buy now</button></td></Link>
+                        <Link to="/ProductOfCellinfo"><td className='details-sub-title'><button>Buy now</button></td></Link>
                     </tr>
                 </table>
 
