@@ -5,6 +5,7 @@
   top: 0;
   background-color: var(--white);
   z-index: 9999;
+
 }
 .navbar{
     width: 1148px;
@@ -34,9 +35,12 @@
     padding: 24px 32px;
    
 }
-.nav-menu li a{
+.nav-menu li:hover{
+    color: var(--Secondary)!important;
+}
+.nav-menu li {
     text-decoration: none;
-    color: var(--Primary);
+    color: var(--Primary)!important;
 }
 .nav-menu hr{
     border: none;

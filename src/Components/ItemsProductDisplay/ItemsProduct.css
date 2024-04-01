@@ -6,9 +6,10 @@
     width: 262px;
     height: 343px;
     cursor: pointer;
+    color: var(--Primary)!important;
 }
-.ItemsProduct:hover p{
-    color: var(--Secondary);
+.ItemsProduct:hover {
+    color: var(--Secondary)!important;
 }
 .ItemsProduct:hover img{
     width: 100%;
@@ -26,10 +27,15 @@
 .ItemsProduct .content-descript{
     margin: 16px;
 }
+.ItemsProduct:hover .content-descript .title-card-product{
+    color: var(--Secondary)!important;
+}
 .ItemsProduct .content-descript .title-card-product{
+    color: var(--Primary)!important;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 4px;
+    transition: var(--Trans);
 }
 .ItemsProduct .content-descript .sub-title-card-product{
     font-size: 12px;
