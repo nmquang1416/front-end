@@ -1,4 +1,21 @@
-
+.Contact-Us .banner-section{
+    background-size: cover;
+    width: 100%;
+    height: 340px;
+    margin-bottom: 64px;
+}
+.Contact-Us .section-title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.Contact-Us .section-title h1{
+    font-size: 84px;
+    color: var(--white);
+    width: 1140px;
+    margin: auto;
+}
 .Container-Contact{
     width: 1148px;
     margin: auto;
@@ -56,8 +73,8 @@
     text-align: center;
     justify-content: center;
     background: linear-gradient(-45deg, var(--Secondary), #e73c7e, #23a6d5, var(--Primary));
-    animation: gradient-anim 15s ease infinite;
-    background-size: 400% 400%;
+    animation: gradient-anim 10s ease infinite;
+    background-size: 180% 180%;
     width: 50%;
     border-radius: 0px 8px 8px 0px; 
     color: var(--white);

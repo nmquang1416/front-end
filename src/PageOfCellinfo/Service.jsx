@@ -5,6 +5,9 @@ import ServiceCard from '../Components/ServiceCard/ServiceCard';
 import Breadcrumbs from '../Components/Breadcrumbs/Breadcrumbs';
 import all_card_service from '../Components/Assets/DataofCellinfo/all_card_service';
 import icon_1 from '../Components/Assets/Img/service-icon.png';
+import icon_2 from '../Components/Assets/Img/seller.png';
+import icon_3 from '../Components/Assets/Img/sell.png';
+import icon_4 from '../Components/Assets/Img/refund-icon.png';
 
 
 
@@ -61,7 +64,7 @@ const Service = (props) => {
             <div className="ItemsService" id="ContactScroll" onClick={executeScrollRepair}>
               <div className="content-Service">
                 <div className="content-service-right">
-                  <img src={icon_1} alt="" />
+                  <img src={icon_2} alt="" />
                 </div>
                 <div className="content-service-left">
                   <div className="title-service">repair and warranty</div>
@@ -74,7 +77,7 @@ const Service = (props) => {
             <div className="ItemsService" id="ContactScroll" onClick={executeScrollPurchase}>
               <div className="content-Service">
                 <div className="content-service-right">
-                  <img src={icon_1} alt="" />
+                  <img src={icon_3} alt="" />
                 </div>
                 <div className="content-service-left">
                   <div className="title-service">Purchase/return policy</div>
@@ -87,7 +90,7 @@ const Service = (props) => {
             <div className="ItemsService" id="ContactScroll" onClick={executeScrollRefund}>
               <div className="content-Service">
                 <div className="content-service-right">
-                  <img src={icon_1} alt="" />
+                  <img src={icon_4} alt="" />
                 </div>
                 <div className="content-service-left">
                   <div className="title-service">Refund policy</div>
