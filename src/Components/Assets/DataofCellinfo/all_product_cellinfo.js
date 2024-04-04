@@ -9,6 +9,7 @@ import img_8 from "../Img/Thumbnail_Product/xiaomi-redmi-14-thumb.png";
 import img_9 from "../Img/Thumbnail_Product/iphone-14-thumb.png";
 
 
+
 // // product can lay = all_product_cellinfo.filter((item)=>{
 // //     return item.id == product_id
 // })

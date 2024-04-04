@@ -15,6 +15,9 @@ import { Storage_fillter } from '../Assets/DataofCellinfo/all_fillter_button';
 
 
 const ProductFillter = () => {
+  const onCheck = (value, checked) => {
+    console.log(value, checked)
+}
   return (
     <div className='ProductFillter'>
       <div className="Brand-Fillter">
@@ -22,7 +25,7 @@ const ProductFillter = () => {
           Brand
         </p>
         {Brand_fillter.map((items, i) => {
-          return <ItemsProductFillter key={i} title={items.title} />
+          return <ItemsProductFillter onCheck={onCheck} key={i} title={items.title} />
         })}
       </div>
 
@@ -31,7 +34,7 @@ const ProductFillter = () => {
           Price($)
         </p>
         {Price_fillter.map((items, i) => {
-          return <ItemsProductFillter key={i} title={items.title} />
+          return <ItemsProductFillter onCheck={onCheck} key={i} title={items.title} />
         })}
       </div>
 
@@ -40,7 +43,7 @@ const ProductFillter = () => {
           Demand
         </p>
         {Demand_fillter.map((items, i) => {
-          return <ItemsProductFillter key={i} title={items.title} />
+          return <ItemsProductFillter onCheck={onCheck} key={i} title={items.title} />
         })}
       </div>
 
@@ -49,7 +52,7 @@ const ProductFillter = () => {
         Storage (Gigabyte)
         </p>
         {Storage_fillter.map((items, i) => {
-          return <ItemsProductFillter key={i} title={items.title} />
+          return <ItemsProductFillter onCheck={onCheck} key={i} title={items.title} />
         })}
       </div>
     </div>

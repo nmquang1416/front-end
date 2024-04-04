@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 
 const ItemsProduct = (props) => {
 
-
   return (
     <div className='ItemsProduct'>
       <Link to={"/ProductOfCellinfo/" + props.id}><img src={props.image} alt="" />

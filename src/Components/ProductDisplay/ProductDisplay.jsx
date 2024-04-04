@@ -8,6 +8,7 @@ import all_product_cellinfo from '../Assets/DataofCellinfo/all_product_cellinfo'
 
 
 const ProductDisplay = () => {
+    
     return (
         <div className='Product-Display' >
             {all_product_cellinfo.map((items, i) => {
