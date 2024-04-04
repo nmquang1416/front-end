@@ -35,7 +35,7 @@ const ContactUs = () => {
                     </div>
                     <div className="Container-Contact-Right" style={{ backgroundImage: `url(${bg_3})`}}>
                         <p className="title">Contact Us</p>
-                        <p className="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <p className="sub-title">Contact </p>
                         <button className='btn'> Send</button>
                     </div>
                 </form>
