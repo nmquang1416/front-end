@@ -18,22 +18,24 @@ const Product = () => {
   };
 
   const [Check, setCheck] = useState({});
+  const [ProductDisplay, setProduct] = useState([]);
   
   Check={};
 
   onChecked = (value,Check) => {
     Check[value] = Check;
+    setCheck[Check]
   };
 
   useEffect(() =>{
     const ProductList = all_product_cellinfo.filter((items) => {
-      return Check[items.categories]
+      // return Check[items.categories]
+      return console.log(items.categories)
     })
+    // setProduct(ProductList)
+  })[Check];
 
-    
-  });
-
-  ///
+  
 
 
 
